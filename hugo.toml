@@ -1,4 +1,91 @@
 baseURL = 'https://sourabhmisal.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Sourabh Misal'
 theme = 'PaperMod'
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog"
+weight = 20
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects"
+weight = 30
+
+[[menu.main]]
+identifier = "experience"
+name = "Experience"
+url = "/experience"
+weight = 40
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search"
+weight = 50
+
+[params]
+showToc = true
+TocOpen = false
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+hideMeta = false
+env = "production"
+hideDescriptionInList = false
+
+  [params.profileMode]
+  enabled = true
+  title = "Sourabh Misal"
+  subtitle = "As an Embedded Systems Engineer and Team Coordinator at [**Flux Auto**](https://fluxauto.xyz), building [**Drivn**](https://www.drivnhq.com/) I am interested in building embedded systems and robotic systems for the autonomous navigation kit at Flux Auto and taking fun and interest in making an existing human-operated vehicles to autonomous vehicles. I am interested in improving my knowledge and apply the learnt concepts and topics in embedded systems, robotic systems, autonomous systems and IoT systems. I am interested in building the products that optimizes the workflow of an existing system."
+  imageUrl = "home/casual-small-square.jpeg"
+  imageWidth = 220
+  imageHeight = 220
+
+  [params.cover]
+  hiddenInList = false
+  hiddenInSingle = false
+
+  [[params.socialIcons]]
+  name = "email"
+  url = "mailto:sourabhmisal1@gmail.com"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/sourabhmisal/"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/sourabhmisal"
+
+  [[params.socialIcons]]
+  name = "youtube"
+  url = "https://www.youtube.com/channel/UCBjy_ciqeNHuvM9K39-LCrg"
+
+  [[params.socialIcons]]
+  name = "cv"
+  url = "https://drive.google.com/file/d/1E1sWST2BZ_XeMGqNi0wkRDJDXKkLOIDq/view?usp=drive_link"
+
+  
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[markup.goldmark.renderer]
+unsafe = true
