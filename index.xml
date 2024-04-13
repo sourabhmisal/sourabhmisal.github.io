@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Sourabh Misal</title>
     <link>https://sourabhmisal.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Sourabh Misal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 12 Apr 2024 15:19:07 +0530</lastBuildDate>
@@ -13,7 +13,7 @@
       <link>https://sourabhmisal.github.io/docs/test/</link>
       <pubDate>Fri, 12 Apr 2024 15:19:07 +0530</pubDate>
       <guid>https://sourabhmisal.github.io/docs/test/</guid>
-      <description>This is a test page. This is test page!</description>
+      <description>Sourabh Misal. This is test page!</description>
     </item>
   </channel>
 </rss>
