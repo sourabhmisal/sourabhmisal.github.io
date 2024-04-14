@@ -9,11 +9,11 @@ name = "Home"
 url = "/"
 weight = 10
 
-[[menu.main]]
-identifier = "blog"
-name = "Blog"
-url = "/blog"
-weight = 20
+# [[menu.main]]
+# identifier = "blog"
+# name = "Blog"
+# url = "/blog"
+# weight = 20
 
 [[menu.main]]
 identifier = "projects"
@@ -74,15 +74,15 @@ hideDescriptionInList = false
   name = "cv"
   url = "https://drive.google.com/file/d/1E1sWST2BZ_XeMGqNi0wkRDJDXKkLOIDq/view?usp=drive_link"
 
-  
-  [params.fuseOpts]
-  isCaseSensitive = false
-  shouldSort = true
-  location = 0
-  distance = 1_000
-  threshold = 0.4
-  minMatchCharLength = 0
-  keys = [ "title", "permalink", "summary", "content" ]
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+keys = [ "title", "description", "permalink", "summary", "content" ]
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]

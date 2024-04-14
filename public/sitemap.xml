@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/experience/flux_auto/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/</loc>
     <lastmod>2024-04-12T15:19:07+05:30</lastmod>
   </url><url>
@@ -11,8 +13,38 @@
     <loc>http://localhost:1313/docs/test/</loc>
     <lastmod>2024-04-12T15:19:07+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/adc/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/c-programming-language/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/canopen/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/case-study/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/ci/cd/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/communication-protocols/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/embedded-systems/</loc>
+  </url><url>
+    <loc>http://localhost:1313/experience/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/freertos/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/gpio/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/i2c/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/reverse-engineering/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/stm32/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/uart/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/usb/</loc>
   </url>
 </urlset>
