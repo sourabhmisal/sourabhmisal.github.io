@@ -45,10 +45,10 @@ hideDescriptionInList = false
   [params.profileMode]
   enabled = true
   title = "Sourabh Misal"
-  subtitle = "As an Embedded Systems Engineer and Team Coordinator at [**Flux Auto**](https://fluxauto.xyz), building [**Drivn**](https://www.drivnhq.com/) I am interested in building embedded systems and robotic systems for the autonomous navigation kit at Flux Auto and taking fun and interest in making an existing human-operated vehicles to autonomous vehicles. I am interested in improving my knowledge and apply the learnt concepts and topics in embedded systems, robotic systems, autonomous systems and IoT systems. I am interested in building the products that optimizes the workflow of an existing system."
-  imageUrl = "home/casual-small-square.jpeg"
+  subtitle = "As an Team Coordinator and Embedded Systems Engineer at [**Flux Auto**](https://fluxauto.xyz), I'm not just building embedded systems—I'm engineering the future of automation with [**Drivn**](https://www.drivnhq.com/), our groundbreaking autonomous navigation kit. Picture this: transforming everyday manually driven vehicles into autonomously manuevering sophisticated marvels that navigate warehouses and farms, all while exuding safety, reliablity, scalability and innovation!! Driven by a relentless thirst for mastery in embedded systems, robotics, autonomy, and IoT, I aspire to lead teams in architecting innovative products, seamlessly integrating cutting-edge technologies. Challenges have been invaluable lessons, fueling rapid growth, invaluable learning opportunities and areas for improvement. Each hurdle has swiftly honed my skills, fostering exponential growth and resilience. My goal: Crafting impactful solutions that optimize workflows, improving industries positively and enriching lives."
+  imageUrl = "home/sourabh_misal_pic.jpg"
   imageWidth = 220
-  imageHeight = 220
+  imageHeight = 270
 
   [params.cover]
   hiddenInList = false
