@@ -1,9 +1,9 @@
 ---
-author: "ABC"
 title: "Team Coordinator, Embedded Systems"
 description: "Flux Auto  |  Bengaluru, India"
-hideMeta: false
+# hideMeta: false
 hideSummary: true
+# hideDescriptionInList: false
 dateString: "Feb 2023 - Present"
 draft: false
 tags: ["STM32", "C (Programming Language)", "FreeRTOS", "Embedded Systems", "Communication Protocols", "CANOpen", "I2C", "GPIO", "USB", "UART", "ADC", "CI/CD", "Reverse Engineering", "Case Study"]
