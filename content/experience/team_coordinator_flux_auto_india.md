@@ -1,10 +1,8 @@
 ---
 title: "Team Coordinator, Embedded Systems"
 description: "Flux Auto  |  Bengaluru, India"
-# hideMeta: false
 hideSummary: true
-# hideDescriptionInList: false
-dateString: "Feb 2023 - Present"
+dateString: "Feb 2023 - Present | 1 yr 3 mos"
 draft: false
 tags: ["STM32", "C (Programming Language)", "FreeRTOS", "Embedded Systems", "Communication Protocols", "CANOpen", "I2C", "GPIO", "USB", "UART", "ADC", "CI/CD", "Reverse Engineering", "Case Study"]
 showToc: false
