@@ -15,10 +15,24 @@
       <description></description>
     </item>
     <item>
+      <title>AMCL</title>
+      <link>http://localhost:1313/tags/amcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/amcl/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>C (Programming Language)</title>
       <link>http://localhost:1313/tags/c-programming-language/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/c-programming-language/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>http://localhost:1313/tags/c&#43;&#43;/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
@@ -50,10 +64,24 @@
       <description></description>
     </item>
     <item>
+      <title>Dijkstra&#39;s Algorithm</title>
+      <link>http://localhost:1313/tags/dijkstras-algorithm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/dijkstras-algorithm/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Embedded Systems</title>
       <link>http://localhost:1313/tags/embedded-systems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/embedded-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ESP32</title>
+      <link>http://localhost:1313/tags/esp32/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/esp32/</guid>
       <description></description>
     </item>
     <item>
@@ -78,6 +106,27 @@
       <description></description>
     </item>
     <item>
+      <title>Localization</title>
+      <link>http://localhost:1313/tags/localization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/localization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React JS</title>
+      <link>http://localhost:1313/tags/react-js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/react-js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/tags/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/research/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Reverse Engineering</title>
       <link>http://localhost:1313/tags/reverse-engineering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -85,10 +134,45 @@
       <description></description>
     </item>
     <item>
+      <title>ROS</title>
+      <link>http://localhost:1313/tags/ros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ros/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RSSI Protocol</title>
+      <link>http://localhost:1313/tags/rssi-protocol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rssi-protocol/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shell Scripting</title>
+      <link>http://localhost:1313/tags/shell-scripting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/shell-scripting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SLAM</title>
+      <link>http://localhost:1313/tags/slam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/slam/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>STM32</title>
       <link>http://localhost:1313/tags/stm32/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/stm32/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trilateration</title>
+      <link>http://localhost:1313/tags/trilateration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/trilateration/</guid>
       <description></description>
     </item>
     <item>

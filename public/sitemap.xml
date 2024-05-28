@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/projects/vector_auto_nav_kit-copy/</loc>
+  </url><url>
     <loc>http://localhost:1313/experience/team_coordinator_flux_auto_india/</loc>
   </url><url>
     <loc>http://localhost:1313/experience/team_coordinator_flux_auto_houston/</loc>
@@ -12,9 +14,21 @@
   </url><url>
     <loc>http://localhost:1313/experience/robotics_simulation_engineer_flux_auto_india/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/ips_esp32_ble_mqtt-copy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/home_service_robot_proto-copy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/wearable_cursor_control-copy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/drivn_auto_nav_kit-copy/</loc>
+  </url><url>
     <loc>http://localhost:1313/experience/electronics_engineer_internship_flux_auto_india/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/home_automation-copy/</loc>
+  </url><url>
     <loc>http://localhost:1313/experience/robotics_simulation_intern_flux_auto_india/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/table_tennis_shooting/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/</loc>
     <lastmod>2024-04-12T15:19:07+05:30</lastmod>
@@ -27,7 +41,11 @@
   </url><url>
     <loc>http://localhost:1313/tags/adc/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/amcl/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/c-programming-language/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/canopen/</loc>
   </url><url>
@@ -39,7 +57,11 @@
   </url><url>
     <loc>http://localhost:1313/tags/communication-protocols/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/dijkstras-algorithm/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/embedded-systems/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/esp32/</loc>
   </url><url>
     <loc>http://localhost:1313/experience/</loc>
   </url><url>
@@ -49,11 +71,29 @@
   </url><url>
     <loc>http://localhost:1313/tags/i2c/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/localization/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/react-js/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/research/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/reverse-engineering/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/ros/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/rssi-protocol/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/shell-scripting/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/slam/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/stm32/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/trilateration/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/uart/</loc>
   </url><url>
