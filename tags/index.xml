@@ -15,10 +15,24 @@
       <description></description>
     </item>
     <item>
+      <title>AMCL</title>
+      <link>https://sourabhmisal.github.io/tags/amcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/amcl/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>C (Programming Language)</title>
       <link>https://sourabhmisal.github.io/tags/c-programming-language/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://sourabhmisal.github.io/tags/c-programming-language/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://sourabhmisal.github.io/tags/c&#43;&#43;/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
@@ -50,10 +64,24 @@
       <description></description>
     </item>
     <item>
+      <title>Dijkstra&#39;s algorithm</title>
+      <link>https://sourabhmisal.github.io/tags/dijkstras-algorithm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/dijkstras-algorithm/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Embedded Systems</title>
       <link>https://sourabhmisal.github.io/tags/embedded-systems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://sourabhmisal.github.io/tags/embedded-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ESP32</title>
+      <link>https://sourabhmisal.github.io/tags/esp32/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/esp32/</guid>
       <description></description>
     </item>
     <item>
@@ -78,6 +106,27 @@
       <description></description>
     </item>
     <item>
+      <title>Localization</title>
+      <link>https://sourabhmisal.github.io/tags/localization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/localization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React JS</title>
+      <link>https://sourabhmisal.github.io/tags/react-js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/react-js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>https://sourabhmisal.github.io/tags/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/research/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Reverse Engineering</title>
       <link>https://sourabhmisal.github.io/tags/reverse-engineering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -85,10 +134,45 @@
       <description></description>
     </item>
     <item>
+      <title>ROS</title>
+      <link>https://sourabhmisal.github.io/tags/ros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/ros/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RSSI Protocol</title>
+      <link>https://sourabhmisal.github.io/tags/rssi-protocol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/rssi-protocol/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shell scripting</title>
+      <link>https://sourabhmisal.github.io/tags/shell-scripting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/shell-scripting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SLAM</title>
+      <link>https://sourabhmisal.github.io/tags/slam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/slam/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>STM32</title>
       <link>https://sourabhmisal.github.io/tags/stm32/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://sourabhmisal.github.io/tags/stm32/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trilateration</title>
+      <link>https://sourabhmisal.github.io/tags/trilateration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/trilateration/</guid>
       <description></description>
     </item>
     <item>
