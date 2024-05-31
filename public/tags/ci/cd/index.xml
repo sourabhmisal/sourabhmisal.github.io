@@ -9,9 +9,9 @@
     <atom:link href="http://localhost:1313/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> Drivn : Autonomous Navigation Kit for existing Battery Operated Pallet Trucks (BOPTs)</title>
-      <link>http://localhost:1313/projects/vector_auto_nav_kit-copy/</link>
+      <link>http://localhost:1313/projects/drivn_auto_nav_kit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/vector_auto_nav_kit-copy/</guid>
+      <guid>http://localhost:1313/projects/drivn_auto_nav_kit/</guid>
       <description>Flux Auto</description>
     </item>
     <item>
@@ -20,6 +20,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experience/team_coordinator_flux_auto_india/</guid>
       <description>Flux Auto  |  Bengaluru, India</description>
+    </item>
+    <item>
+      <title> Vector : Autonomous Navigation Kit for existing Reach Trucks (RTs)</title>
+      <link>http://localhost:1313/projects/vector_auto_nav_kit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/vector_auto_nav_kit/</guid>
+      <description>Flux Auto</description>
     </item>
     <item>
       <title>Team Coordinator, Embedded Systems</title>
@@ -62,13 +69,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/wearable_cursor_control-copy/</guid>
       <description>Hobby</description>
-    </item>
-    <item>
-      <title> Vector : Autonomous Navigation Kit for existing Reach Trucks (RTs)</title>
-      <link>http://localhost:1313/projects/drivn_auto_nav_kit-copy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/drivn_auto_nav_kit-copy/</guid>
-      <description>Flux Auto</description>
     </item>
     <item>
       <title>Electronics Engineer | Internship</title>

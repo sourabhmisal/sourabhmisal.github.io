@@ -15,23 +15,23 @@ Developed an autonomous navigation kit for existing Battery-Operated Pallet Truc
 #### Key Technologies and Skills
 * ***Communication Protocols :***
 
-    * **CANopen Protocol :** Integrated CANopen for robust communication among submodules of the modularized embedded system architecture. Developed custom CANopen nodes for various components, ensuring seamless interaction with the vehicle’s existing CAN bus and its subsystems.
+    * **CANopen Protocol :** Integrated CANopen for robust communication among submodules of the modularized embedded system architecture. Developed custom CANopen nodes for various components, ensuring seamless interaction with the vehicle’s existing CAN bus and its subsystems and facilitating modular and scalable firmware architecture
     * **Embedded Communication Protocols :** Developed low-level drivers for I2C, CAN, UART, and USB using HAL APIs and libraries provided by silicon vendors.
 
 * ***Embedded Systems and RTOS :***
 
-    * **FreeRTOS :** Deployed FreeRTOS for real-time task scheduling and execution on single-core ARM Cortex-M4 and M7 microcontrollers. Configured tasks for feedback data acquisition, decision-making algorithms, and actuator controls, ensuring deterministic behavior and high system reliability.
+    * **FreeRTOS :** Deployed FreeRTOS for real-time task scheduling and execution on single-core ARM Cortex-M4 and M7 microcontrollers. Configured tasks for feedback data acquisition, decision-making algorithms and actuator controls, ensuring deterministic behavior and high system reliability.
     * **Event-Driven State Machine :** Engineered an event-driven state machine to manage the autonomous navigation system's states, enabling dynamic responses to environmental changes and system events.
 
 * ***Device Drivers :***
 
     * **I2C Protocol :** Developed device drivers for MCP4441 and DS3502 digital potentiometers, and MCP23017 I/O expander, ensuring accurate and reliable communication and control.
-    * **UART Protocol :** Implemented drivers for various sensors like ultrasonic sensors, optimizing data transmission and reception.
+    * **UART Protocol :** Implemented drivers for various sensors like ultrasonic sensors, optimizing data transmission and reception. Also used as debugging port for various subsystems.
     * **SPI Protocol :** Wrote a driver for the MCP41010 digital potentiometer, ensuring high-speed data transfer and precise control over the potentiometer.
 
 * ***Robotics and Sensor Integration :***
 
-    * **ROS (Robot Operating System) :** Utilized ROS to develop the robot's motion control stack. Implemented ROS nodes for sensor data processing, lateral motion control, and longitudinal motion, facilitating modular and scalable software architecture.
+    * **ROS (Robot Operating System) :** Utilized ROS to develop the robot's motion control stack. Implemented ROS nodes for sensor data processing, lateral motion control and longitudinal motion, facilitating modular and scalable software architecture.
     * **Safety Systems :** Developed safety systems including emergency stops and collision detection.
 
 * ***Electrical Designs :***

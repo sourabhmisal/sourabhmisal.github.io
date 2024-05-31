@@ -2,9 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/projects/vector_auto_nav_kit-copy/</loc>
+    <loc>http://localhost:1313/projects/drivn_auto_nav_kit/</loc>
   </url><url>
     <loc>http://localhost:1313/experience/team_coordinator_flux_auto_india/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/vector_auto_nav_kit/</loc>
   </url><url>
     <loc>http://localhost:1313/experience/team_coordinator_flux_auto_houston/</loc>
   </url><url>
@@ -19,8 +21,6 @@
     <loc>http://localhost:1313/projects/home_service_robot_proto-copy/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/wearable_cursor_control-copy/</loc>
-  </url><url>
-    <loc>http://localhost:1313/projects/drivn_auto_nav_kit-copy/</loc>
   </url><url>
     <loc>http://localhost:1313/experience/electronics_engineer_internship_flux_auto_india/</loc>
   </url><url>

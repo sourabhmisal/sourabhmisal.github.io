@@ -6,7 +6,7 @@ dateString: "Apr 2021 - Jun 2024 | 2 years"
 draft: false
 tags: ["STM32", "C (Programming Language)", "FreeRTOS", "Embedded Systems", "Communication Protocols", "CANOpen", "I2C", "GPIO", "USB", "UART", "ADC", "CI/CD", "Reverse Engineering", "Case Study"]
 showToc: false
-weight: 306
+weight: 302
 --- 
 
 ### Description
