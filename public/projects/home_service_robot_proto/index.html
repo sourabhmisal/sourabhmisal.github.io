@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title> Prototype of Home service robot in virtual world using TurtleBot | Sourabh Misal</title>
-<meta name="keywords" content="STM32, C (Programming Language), FreeRTOS, Embedded Systems, Communication Protocols, CANOpen, I2C, GPIO, USB, UART, ADC, CI/CD, Reverse Engineering, Case Study">
+<meta name="keywords" content="ROS, C&#43;&#43;, Localization, SLAM, Dijkstra&#39;s algorithm, AMCL, GPIO, USB, UART, ADC, CI/CD, Reverse Engineering, Shell scripting">
 <meta name="description" content="Hobby">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/projects/home_service_robot_proto/">
@@ -95,10 +95,10 @@
   "name": " Prototype of Home service robot in virtual world using TurtleBot",
   "description": "Hobby",
   "keywords": [
-    "STM32", "C (Programming Language)", "FreeRTOS", "Embedded Systems", "Communication Protocols", "CANOpen", "I2C", "GPIO", "USB", "UART", "ADC", "CI/CD", "Reverse Engineering", "Case Study"
+    "ROS", "C++", "Localization", "SLAM", "Dijkstra's algorithm", "AMCL", "GPIO", "USB", "UART", "ADC", "CI/CD", "Reverse Engineering", "Shell scripting"
   ],
-  "articleBody": "Description Wrote and optimized firmware which provides spin capability for the robot. Learnt PCB Designing and optimized design of control board using EasyEDA and KiCad Debugging issues of the robot Worked on a feedback loop system using IR sensor for the robot. Worked on system to detect bounce using piezo-electric sensors. Learnt about improvements in designing the product and optimization of embedded software. ",
-  "wordCount" : "63",
+  "articleBody": "Description This project was done with the aim of demonstrating the knowledge of Simultaneous Localization and Mapping (SLAM) and Navigation Goal mode of a robot. I had done the simulation setup on gazebo for interfacing robot with different ROS packages, some of which are official ROS packages and others are packages that are created. The navigation of robot to specified pick-up and drop-off zones within the Gazebo world using localization is done using AMCL and trajectory planning through ROS Navigation stack, which relies on Dijkstra’s algorithm. The Navigation Goal Node is developed that facilitates the communication with the ROS Navigation stack, enabling the autonomous transmission of successive goals for the robot to achieve. A virtual model of Tutlebot3 was used as home service robot where the it navigates to pick up and deliver virtual objects (using markers). Shell scripts were written to execute home service simulation. ",
+  "wordCount" : "146",
   "inLanguage": "en",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -176,6 +176,16 @@
                 </a>
             </li>
             <li>
+                <a href="http://localhost:1313/extra-curriculars" title="Extra-Curriculars">
+                    <span>Extra-Curriculars</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/blogs" title="Blogs">
+                    <span>Blogs</span>
+                </a>
+            </li>
+            <li>
                 <a href="http://localhost:1313/search" title="Search">
                     <span>Search</span>
                 </a>
@@ -203,12 +213,12 @@ Apr 2020 - Jun 2020 | 3 mos
   </header> 
   <div class="post-content"><h3 id="description">Description<a hidden class="anchor" aria-hidden="true" href="#description">#</a></h3>
 <ul>
-<li>Wrote and optimized firmware which provides spin capability for the robot.</li>
-<li>Learnt PCB Designing and optimized design of control board using EasyEDA and KiCad</li>
-<li>Debugging issues of the robot</li>
-<li>Worked on a feedback loop system using IR sensor for the robot.</li>
-<li>Worked on system to detect bounce using piezo-electric sensors.</li>
-<li>Learnt about improvements in designing the product and optimization of embedded software.</li>
+<li>This project was done with the aim of demonstrating the knowledge of Simultaneous Localization and Mapping (SLAM) and Navigation Goal mode of a robot.</li>
+<li>I had done the simulation setup on gazebo for interfacing robot with different ROS packages, some of which are official ROS packages and others are packages that are created.</li>
+<li>The navigation of robot to specified pick-up and drop-off zones within the Gazebo world using localization is done using AMCL and trajectory planning through ROS Navigation stack, which relies on Dijkstra&rsquo;s algorithm.</li>
+<li>The Navigation Goal Node is developed that facilitates the communication with the ROS Navigation stack, enabling the autonomous transmission of successive goals for the robot to achieve.</li>
+<li>A virtual model of Tutlebot3 was used as home service robot where the it navigates to pick up and deliver virtual objects (using markers).</li>
+<li>Shell scripts were written to execute home service simulation.</li>
 </ul>
 
 
@@ -216,20 +226,19 @@ Apr 2020 - Jun 2020 | 3 mos
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/stm32/">STM32</a></li>
-      <li><a href="http://localhost:1313/tags/c-programming-language/">C (Programming Language)</a></li>
-      <li><a href="http://localhost:1313/tags/freertos/">FreeRTOS</a></li>
-      <li><a href="http://localhost:1313/tags/embedded-systems/">Embedded Systems</a></li>
-      <li><a href="http://localhost:1313/tags/communication-protocols/">Communication Protocols</a></li>
-      <li><a href="http://localhost:1313/tags/canopen/">CANOpen</a></li>
-      <li><a href="http://localhost:1313/tags/i2c/">I2C</a></li>
+      <li><a href="http://localhost:1313/tags/ros/">ROS</a></li>
+      <li><a href="http://localhost:1313/tags/c&#43;&#43;/">C&#43;&#43;</a></li>
+      <li><a href="http://localhost:1313/tags/localization/">Localization</a></li>
+      <li><a href="http://localhost:1313/tags/slam/">SLAM</a></li>
+      <li><a href="http://localhost:1313/tags/dijkstras-algorithm/">Dijkstra&#39;s Algorithm</a></li>
+      <li><a href="http://localhost:1313/tags/amcl/">AMCL</a></li>
       <li><a href="http://localhost:1313/tags/gpio/">GPIO</a></li>
       <li><a href="http://localhost:1313/tags/usb/">USB</a></li>
       <li><a href="http://localhost:1313/tags/uart/">UART</a></li>
       <li><a href="http://localhost:1313/tags/adc/">ADC</a></li>
       <li><a href="http://localhost:1313/tags/ci/cd/">CI/CD</a></li>
       <li><a href="http://localhost:1313/tags/reverse-engineering/">Reverse Engineering</a></li>
-      <li><a href="http://localhost:1313/tags/case-study/">Case Study</a></li>
+      <li><a href="http://localhost:1313/tags/shell-scripting/">Shell Scripting</a></li>
     </ul>
   </footer>
 </article>

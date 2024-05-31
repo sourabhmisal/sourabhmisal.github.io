@@ -9,9 +9,9 @@
     <atom:link href="http://localhost:1313/tags/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> Prototype of Home service robot in virtual world using TurtleBot</title>
-      <link>http://localhost:1313/projects/home_service_robot_proto-copy/</link>
+      <link>http://localhost:1313/projects/home_service_robot_proto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/home_service_robot_proto-copy/</guid>
+      <guid>http://localhost:1313/projects/home_service_robot_proto/</guid>
       <description>Hobby</description>
     </item>
   </channel>
