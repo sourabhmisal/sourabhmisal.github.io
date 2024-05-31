@@ -62,15 +62,15 @@ Developed an autonomous navigation kit for existing Battery-Operated Pallet Truc
     * Communicated project status, technical challenges, and solutions in a clear and concise manner to stakeholders and cross-functional teams.
 
 #### Achievements
-    * Secured a contract with Walmart Inc. for the pilot run of the Autonomous Navigation Kit on five units of their Battery-Operated Pallet Trucks in their Mexican warehouses.
-    * Successfully delivered an autonomous navigation solution that significantly improved warehouse operational efficiency and safety standards for BOPTs.
-    * Received positive feedback from stakeholders for the seamless integration and robust performance of the autonomous navigation kit within existing warehouse infrastructure.
-    * Contributed to Flux Auto's reputation as a pioneer of providing innovative warehouse automation solutions with the existing fleet and infrastructure.
+* Secured a contract with Walmart Inc. for the pilot run of the Autonomous Navigation Kit on five units of their Battery-Operated Pallet Trucks in their Mexican warehouses.
+* Successfully delivered an autonomous navigation solution that significantly improved warehouse operational efficiency and safety standards for BOPTs.
+* Received positive feedback from stakeholders for the seamless integration and robust performance of the autonomous navigation kit within existing warehouse infrastructure.
+* Contributed to Flux Auto's reputation as a pioneer of providing innovative warehouse automation solutions with the existing fleet and infrastructure.
 
 #### Key Learnings
-    * Gained insights into the complexities of developing autonomous systems for industrial applications, particularly for Battery-Operated Pallet Trucks.
-    * Enhanced skills in embedded systems design, sensor integration, and cross-functional collaboration within the context of warehouse automation.
-    * Developed a deeper understanding of safety-critical systems and their importance in industrial automation environments, specifically for BOPTs.
+* Gained insights into the complexities of developing autonomous systems for industrial applications, particularly for Battery-Operated Pallet Trucks.
+* Enhanced skills in embedded systems design, sensor integration, and cross-functional collaboration within the context of warehouse automation.
+* Developed a deeper understanding of safety-critical systems and their importance in industrial automation environments, specifically for BOPTs.
 
 
 #### Technologies Used
