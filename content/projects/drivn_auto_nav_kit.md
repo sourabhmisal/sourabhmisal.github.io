@@ -4,13 +4,13 @@ description: "Flux Auto"
 hideSummary: true
 dateString: "Apr 2022 - Aug 2024 | 2 years 3 mos"
 draft: false
-tags: ["STM32", "C (Programming Language)", "FreeRTOS", "Embedded Systems", "Communication Protocols", "CANOpen", "I2C", "GPIO", "USB", "UART", "ADC", "CI/CD", "Reverse Engineering", "Case Study"]
+tags: ["STM32", "C (Programming Language)", "C++", "FreeRTOS", "Embedded Systems",  "BLDC Motor Control System", "AC Induction Motor Control System", "Communication Protocols", "CANOpen", "I2C", "GPIO", "USB", "UART", "ADC", "CI/CD", "Reverse Engineering", "Case Study", "Version Control", "PID Control Algorithm"]
 showToc: false
 weight: 301
 --- 
 
 ### Description
-Developed an autonomous navigation kit for existing Battery-Operated Pallet Trucks (BOPTs) as part of Flux Auto's comprehensive warehouse automation solution.
+Developed an autonomous navigation kit for existing Battery-Operated Pallet Trucks (BOPTs) as part of Flux Auto's comprehensive warehouse automation solution, following the guidelines of IEC 61508 which is  Functional Safety of Electrical/Electronic/Programmable Electronic Safety-related Systems.
 
 #### Key Technologies and Skills
 * ***Communication Protocols :***
@@ -23,6 +23,12 @@ Developed an autonomous navigation kit for existing Battery-Operated Pallet Truc
     * **FreeRTOS :** Deployed FreeRTOS for real-time task scheduling and execution on single-core ARM Cortex-M4 and M7 microcontrollers. Configured tasks for feedback data acquisition, decision-making algorithms and actuator controls, ensuring deterministic behavior and high system reliability.
     * **Event-Driven State Machine :** Engineered an event-driven state machine to manage the autonomous navigation system's states, enabling dynamic responses to environmental changes and system events.
 
+* ***Control Systems :***
+    * **PID Control :** 
+        * Designed and implemented PID control algorithms for BLDC motor and AC induction motor control systems, optimizing efficiency and performance.
+        * Developed software modules for real-time control and monitoring of BLDC motor parameters, ensuring precise speed and torque control.
+        * Collaborated with cross-functional teams to integrate PID Control algorithms into embedded systems, enhancing motor performance and reliability.
+
 * ***Device Drivers :***
 
     * **I2C Protocol :** Developed device drivers for MCP4441 and DS3502 digital potentiometers, and MCP23017 I/O expander, ensuring accurate and reliable communication and control.
@@ -32,10 +38,11 @@ Developed an autonomous navigation kit for existing Battery-Operated Pallet Truc
 * ***Robotics and Sensor Integration :***
 
     * **ROS (Robot Operating System) :** Utilized ROS to develop the robot's motion control stack. Implemented ROS nodes for sensor data processing, lateral motion control and longitudinal motion, facilitating modular and scalable software architecture.
-    * **Safety Systems :** Developed safety systems including emergency stops and collision detection.
+    * **Safety Systems :** Developed safety systems including emergency stops and collision detection using SICK Safety Scanner LiDARs.
 
 * ***Electrical Designs :***
 
+    * Designed electronic control systems for the autonomous control of the vehicle using KiCAD.
     * Reviewed schematics for microcontrollers and connected peripheral components to assist in verifying hardware functionality with cross-functional teams.
 
 * ***Board Bring-up and Integration :***
@@ -60,6 +67,7 @@ Developed an autonomous navigation kit for existing Battery-Operated Pallet Truc
 * ***Documentation and Communication***
     * Created and maintained comprehensive technical documentation including design specifications, user guides and release notes.
     * Communicated project status, technical challenges, and solutions in a clear and concise manner to stakeholders and cross-functional teams.
+
 
 #### Achievements
 * Secured a contract with Walmart Inc. for the pilot run of the Autonomous Navigation Kit on five units of their Battery-Operated Pallet Trucks in their Mexican warehouses.

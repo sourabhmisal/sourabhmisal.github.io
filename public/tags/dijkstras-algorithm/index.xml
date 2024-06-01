@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dijkstra&#39;s Algorithm on Sourabh Misal</title>
     <link>http://localhost:1313/tags/dijkstras-algorithm/</link>
@@ -12,7 +12,7 @@
       <link>http://localhost:1313/projects/home_service_robot_proto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/home_service_robot_proto/</guid>
-      <description>Hobby</description>
+      <description>Description This project was done with the aim of demonstrating the knowledge of Simultaneous Localization and Mapping (SLAM) and Navigation Goal mode of a robot. I had done the simulation setup on gazebo for interfacing robot with different ROS packages, some of which are official ROS packages and others are packages that are created. The navigation of robot to specified pick-up and drop-off zones within the Gazebo world using localization is done using AMCL and trajectory planning through ROS Navigation stack, which relies on Dijkstra&amp;rsquo;s algorithm.</description>
     </item>
   </channel>
 </rss>

@@ -4,9 +4,11 @@
   <url>
     <loc>http://localhost:1313/projects/drivn_auto_nav_kit/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/vector_auto_nav_kit/</loc>
+  </url><url>
     <loc>http://localhost:1313/experience/team_coordinator_flux_auto_india/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/vector_auto_nav_kit/</loc>
+    <loc>http://localhost:1313/projects/ips_esp32_ble_mqtt/</loc>
   </url><url>
     <loc>http://localhost:1313/experience/team_coordinator_flux_auto_houston/</loc>
   </url><url>
@@ -14,36 +16,31 @@
   </url><url>
     <loc>http://localhost:1313/experience/embedded_systems_engineer_flux_auto_india/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/table_tennis_shooting/</loc>
+  </url><url>
     <loc>http://localhost:1313/experience/embedded_systems_engineer_flux_auto_houston/</loc>
   </url><url>
     <loc>http://localhost:1313/experience/robotics_simulation_engineer_flux_auto_india/</loc>
-  </url><url>
-    <loc>http://localhost:1313/projects/ips_esp32_ble_mqtt/</loc>
-  </url><url>
-    <loc>http://localhost:1313/projects/home_service_robot_proto/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/wearable_cursor_control/</loc>
   </url><url>
     <loc>http://localhost:1313/experience/electronics_engineer_internship_flux_auto_india/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/home_automation/</loc>
-  </url><url>
     <loc>http://localhost:1313/experience/robotics_simulation_intern_flux_auto_india/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/table_tennis_shooting/</loc>
+    <loc>http://localhost:1313/projects/home_automation/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/</loc>
-    <lastmod>2024-04-12T15:19:07+05:30</lastmod>
+    <loc>http://localhost:1313/projects/home_service_robot_proto/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-04-12T15:19:07+05:30</lastmod>
+    <loc>http://localhost:1313/tags/ac-induction-motor-control-system/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/test/</loc>
-    <lastmod>2024-04-12T15:19:07+05:30</lastmod>
+    <loc>http://localhost:1313/tags/actuator-control-system/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/adc/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/amcl/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/bldc-motor-control-system/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/c-programming-language/</loc>
   </url><url>
@@ -59,13 +56,23 @@
   </url><url>
     <loc>http://localhost:1313/tags/communication-protocols/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/dc-motor-control/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/dc-motor-control-system/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/dijkstras-algorithm/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/embedded-systems/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/esp-idf/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/esp32/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/esp32-soc/</loc>
+  </url><url>
     <loc>http://localhost:1313/experience/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/field-oriented-control-foc-algorithm/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/freertos/</loc>
   </url><url>
@@ -73,7 +80,17 @@
   </url><url>
     <loc>http://localhost:1313/tags/i2c/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/jtag-debugging/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/kicad/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/kicad-pcb-design/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/localization/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/pid-control/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/pid-control-algorithm/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
   </url><url>
@@ -87,9 +104,21 @@
   </url><url>
     <loc>http://localhost:1313/tags/rssi-protocol/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/servo-motor-control/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/servo-motor-control-system/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/shell-scripting/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/slam/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/spi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/stepper-motor-control/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/stepper-motor-control-system/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/stm32/</loc>
   </url><url>
@@ -100,5 +129,9 @@
     <loc>http://localhost:1313/tags/uart/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/usb/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/version-control/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/wifi/</loc>
   </url>
 </urlset>

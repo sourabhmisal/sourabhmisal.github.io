@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React JS on Sourabh Misal</title>
     <link>http://localhost:1313/tags/react-js/</link>
@@ -12,7 +12,7 @@
       <link>http://localhost:1313/projects/ips_esp32_ble_mqtt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/ips_esp32_ble_mqtt/</guid>
-      <description>Final Year Project</description>
+      <description>Description This was the final year project of the undergraduate course in electronics and communication engineering. Please find the full description in this Github Link :! This was also published as a research paper :- DOI: 10.1109/ICCMC48092.2020.ICCMC-00015 Hardware used are ESP32 Microcontrollers, Bluetooth Low Energy beacon Technology used is Message Queing Telemetry Transport Trilateration algorithm is made to run on the received RSSI values and position is determined. The firmware and the positioning algorithm were written on the C/C++ and ReactJS .</description>
     </item>
   </channel>
 </rss>

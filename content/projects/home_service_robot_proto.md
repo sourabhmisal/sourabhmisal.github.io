@@ -4,9 +4,9 @@ description: "Hobby"
 hideSummary: true
 dateString: "Apr 2020 - Jun 2020 | 3 mos"
 draft: false
-tags: ["ROS", "C++", "Localization", "SLAM", "Dijkstra's algorithm", "AMCL", "GPIO", "USB", "UART", "ADC", "CI/CD", "Reverse Engineering", "Shell scripting"]
+tags: ["ROS", "C++", "Localization", "SLAM", "Dijkstra's algorithm", "AMCL", "GPIO", "USB", "UART", "ADC", "Shell scripting"]
 showToc: false
-weight: 306
+weight: 310
 --- 
 
 ### Description

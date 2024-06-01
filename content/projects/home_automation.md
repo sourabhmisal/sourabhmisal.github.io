@@ -1,12 +1,12 @@
 ---
 title: "Hardware of Home Automation system "
-description: "Final Year Project"
+description: "Hobby Project"
 hideSummary: true
-dateString: "Apr 2020 - Jun 2020 | 3 mos"
+dateString: "Apr 2020 - Dec 2020 | 9 mos"
 draft: false
-tags: ["STM32", "C (Programming Language)", "FreeRTOS", "Embedded Systems", "Communication Protocols", "CANOpen", "I2C", "GPIO", "USB", "UART", "ADC", "CI/CD", "Reverse Engineering", "Case Study"]
+tags: ["ESP32", "KiCAD", "Embedded Systems", "Communication Protocols", "Wifi", "I2C", "GPIO", "USB", "UART"]
 showToc: false
-weight: 306
+weight: 307
 --- 
 
 ### Description

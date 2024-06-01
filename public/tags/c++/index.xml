@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C&#43;&#43; on Sourabh Misal</title>
     <link>http://localhost:1313/tags/c&#43;&#43;/</link>
@@ -8,11 +8,18 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title> Drivn : Autonomous Navigation Kit for existing Battery Operated Pallet Trucks (BOPTs)</title>
+      <link>http://localhost:1313/projects/drivn_auto_nav_kit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/drivn_auto_nav_kit/</guid>
+      <description>Description Developed an autonomous navigation kit for existing Battery-Operated Pallet Trucks (BOPTs) as part of Flux Auto&amp;rsquo;s comprehensive warehouse automation solution, following the guidelines of IEC 61508 which is Functional Safety of Electrical/Electronic/Programmable Electronic Safety-related Systems.&#xA;Key Technologies and Skills Communication Protocols :&#xA;CANopen Protocol : Integrated CANopen for robust communication among submodules of the modularized embedded system architecture. Developed custom CANopen nodes for various components, ensuring seamless interaction with the vehicle’s existing CAN bus and its subsystems and facilitating modular and scalable firmware architecture Embedded Communication Protocols : Developed low-level drivers for I2C, CAN, UART, and USB using HAL APIs and libraries provided by silicon vendors.</description>
+    </item>
+    <item>
       <title> Prototype of Home service robot in virtual world using TurtleBot</title>
       <link>http://localhost:1313/projects/home_service_robot_proto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/home_service_robot_proto/</guid>
-      <description>Hobby</description>
+      <description>Description This project was done with the aim of demonstrating the knowledge of Simultaneous Localization and Mapping (SLAM) and Navigation Goal mode of a robot. I had done the simulation setup on gazebo for interfacing robot with different ROS packages, some of which are official ROS packages and others are packages that are created. The navigation of robot to specified pick-up and drop-off zones within the Gazebo world using localization is done using AMCL and trajectory planning through ROS Navigation stack, which relies on Dijkstra&amp;rsquo;s algorithm.</description>
     </item>
   </channel>
 </rss>

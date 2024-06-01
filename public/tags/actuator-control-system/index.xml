@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Actuator Control System on Sourabh Misal</title>
+    <link>http://localhost:1313/tags/actuator-control-system/</link>
+    <description>Recent content in Actuator Control System on Sourabh Misal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/actuator-control-system/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Ceres : Autonomous Navigation Kit for Tractors</title>
+      <link>http://localhost:1313/projects/ceres_auto_nav_kit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ceres_auto_nav_kit/</guid>
+      <description>Description Designed and implemented embedded control systems of autonomous navigation kit for tractors as part of Flux Auto&amp;rsquo;s comprehensive agricultural automation solution, following the guidelines of ISO 18497 and 25119-1 which is Agricultural machinery and tractors — Safety of partially automated, semi-autonomous and autonomous machinery&#xA;Key Technologies and Skills Communication Protocols :&#xA;CANopen Protocol : Integrated CANopen for robust communication among submodules of the modularized embedded system architecture. Developed custom CANopen nodes for various components, ensuring seamless interaction with the vehicle’s existing CAN bus and its subsystems and facilitating modular and scalable firmware architecture Embedded Communication Protocols : Developed low-level drivers for I2C, CAN, UART, and USB using HAL APIs and libraries provided by silicon vendors.</description>
+    </item>
+  </channel>
+</rss>
