@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>BLDC Motor Control System on Sourabh Misal</title>
+    <link>https://sourabhmisal.github.io/tags/bldc-motor-control-system/</link>
+    <description>Recent content in BLDC Motor Control System on Sourabh Misal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://sourabhmisal.github.io/tags/bldc-motor-control-system/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Drivn : Autonomous Navigation Kit for existing Battery Operated Pallet Trucks (BOPTs)</title>
+      <link>https://sourabhmisal.github.io/projects/drivn_auto_nav_kit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/projects/drivn_auto_nav_kit/</guid>
+      <description>Flux Auto</description>
+    </item>
+    <item>
+      <title> Vector : Autonomous Navigation Kit for existing Reach Trucks (RTs)</title>
+      <link>https://sourabhmisal.github.io/projects/vector_auto_nav_kit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/projects/vector_auto_nav_kit/</guid>
+      <description>Flux Auto</description>
+    </item>
+  </channel>
+</rss>

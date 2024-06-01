@@ -8,6 +8,20 @@
     <language>en</language>
     <atom:link href="https://sourabhmisal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AC Induction Motor Control System</title>
+      <link>https://sourabhmisal.github.io/tags/ac-induction-motor-control-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/ac-induction-motor-control-system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Actuator Control System</title>
+      <link>https://sourabhmisal.github.io/tags/actuator-control-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/actuator-control-system/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>ADC</title>
       <link>https://sourabhmisal.github.io/tags/adc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -19,6 +33,13 @@
       <link>https://sourabhmisal.github.io/tags/amcl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://sourabhmisal.github.io/tags/amcl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BLDC Motor Control System</title>
+      <link>https://sourabhmisal.github.io/tags/bldc-motor-control-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/bldc-motor-control-system/</guid>
       <description></description>
     </item>
     <item>
@@ -64,6 +85,20 @@
       <description></description>
     </item>
     <item>
+      <title>DC Motor Control</title>
+      <link>https://sourabhmisal.github.io/tags/dc-motor-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/dc-motor-control/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DC Motor Control System</title>
+      <link>https://sourabhmisal.github.io/tags/dc-motor-control-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/dc-motor-control-system/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Dijkstra&#39;s algorithm</title>
       <link>https://sourabhmisal.github.io/tags/dijkstras-algorithm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -78,10 +113,31 @@
       <description></description>
     </item>
     <item>
+      <title>ESP-IDF</title>
+      <link>https://sourabhmisal.github.io/tags/esp-idf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/esp-idf/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>ESP32</title>
       <link>https://sourabhmisal.github.io/tags/esp32/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://sourabhmisal.github.io/tags/esp32/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ESP32 SoC</title>
+      <link>https://sourabhmisal.github.io/tags/esp32-soc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/esp32-soc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Field Oriented Control (FOC) algorithm</title>
+      <link>https://sourabhmisal.github.io/tags/field-oriented-control-foc-algorithm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/field-oriented-control-foc-algorithm/</guid>
       <description></description>
     </item>
     <item>
@@ -106,10 +162,45 @@
       <description></description>
     </item>
     <item>
+      <title>JTAG Debugging</title>
+      <link>https://sourabhmisal.github.io/tags/jtag-debugging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/jtag-debugging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KiCAD</title>
+      <link>https://sourabhmisal.github.io/tags/kicad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/kicad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KiCAD PCB Design</title>
+      <link>https://sourabhmisal.github.io/tags/kicad-pcb-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/kicad-pcb-design/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Localization</title>
       <link>https://sourabhmisal.github.io/tags/localization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://sourabhmisal.github.io/tags/localization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PID Control</title>
+      <link>https://sourabhmisal.github.io/tags/pid-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/pid-control/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PID Control algorithm</title>
+      <link>https://sourabhmisal.github.io/tags/pid-control-algorithm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/pid-control-algorithm/</guid>
       <description></description>
     </item>
     <item>
@@ -148,6 +239,20 @@
       <description></description>
     </item>
     <item>
+      <title>Servo Motor Control</title>
+      <link>https://sourabhmisal.github.io/tags/servo-motor-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/servo-motor-control/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Servo Motor Control System</title>
+      <link>https://sourabhmisal.github.io/tags/servo-motor-control-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/servo-motor-control-system/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Shell scripting</title>
       <link>https://sourabhmisal.github.io/tags/shell-scripting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -159,6 +264,27 @@
       <link>https://sourabhmisal.github.io/tags/slam/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://sourabhmisal.github.io/tags/slam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SPI</title>
+      <link>https://sourabhmisal.github.io/tags/spi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/spi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stepper Motor Control</title>
+      <link>https://sourabhmisal.github.io/tags/stepper-motor-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/stepper-motor-control/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stepper Motor Control System</title>
+      <link>https://sourabhmisal.github.io/tags/stepper-motor-control-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/stepper-motor-control-system/</guid>
       <description></description>
     </item>
     <item>
@@ -187,6 +313,20 @@
       <link>https://sourabhmisal.github.io/tags/usb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://sourabhmisal.github.io/tags/usb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Version Control</title>
+      <link>https://sourabhmisal.github.io/tags/version-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/version-control/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wifi</title>
+      <link>https://sourabhmisal.github.io/tags/wifi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sourabhmisal.github.io/tags/wifi/</guid>
       <description></description>
     </item>
   </channel>

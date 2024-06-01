@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title> Vector : Autonomous Navigation Kit for existing Reach Trucks (RTs) | Sourabh Misal</title>
-<meta name="keywords" content="STM32, C (Programming Language), FreeRTOS, Embedded Systems, Communication Protocols, CANOpen, I2C, GPIO, USB, UART, ADC, CI/CD, Reverse Engineering, Case Study">
+<meta name="keywords" content="STM32, C (Programming Language), FreeRTOS, Embedded Systems, BLDC Motor Control System, AC Induction Motor Control System, PID Control, Field Oriented Control (FOC) algorithm, Communication Protocols, CANOpen, I2C, GPIO, USB, UART, ADC, CI/CD, Reverse Engineering, Case Study">
 <meta name="description" content="Flux Auto">
 <meta name="author" content="">
 <link rel="canonical" href="https://sourabhmisal.github.io/projects/vector_auto_nav_kit/">
@@ -94,10 +94,10 @@
   "name": " Vector : Autonomous Navigation Kit for existing Reach Trucks (RTs)",
   "description": "Flux Auto",
   "keywords": [
-    "STM32", "C (Programming Language)", "FreeRTOS", "Embedded Systems", "Communication Protocols", "CANOpen", "I2C", "GPIO", "USB", "UART", "ADC", "CI/CD", "Reverse Engineering", "Case Study"
+    "STM32", "C (Programming Language)", "FreeRTOS", "Embedded Systems", "BLDC Motor Control System", "AC Induction Motor Control System", "PID Control", "Field Oriented Control (FOC) algorithm", "Communication Protocols", "CANOpen", "I2C", "GPIO", "USB", "UART", "ADC", "CI/CD", "Reverse Engineering", "Case Study"
   ],
-  "articleBody": "Description Developed an autonomous navigation kit for existing Reach Trucks (RTs) as part of Flux Auto’s comprehensive warehouse automation solution.\nKey Contributions Engineered a fault-tolerant embedded systems architecture to optimize reliability, ensuring continuous autonomous operation of Reach Trucks (RTs). Facilitated seamless communication between RT’s stock system and the software stack of the Autonomous Navigation kit. Led and contributed to the firmware development of a modular, scalable and upgradable embedded systems architecture using FreeRTOS, C, C++, ROS and state machines, enabling easy integration of additional features and upgrades to meet evolving RT’s and warehouse automation needs. Demonstrated proficiency in developing and optimizing low-level drivers and peripheral interfaces for firmware of embedded systems. Ensured seamless integration with hardware components and safety sensors, resulting in maximized system performance and reliability. Reviewed and validated schematics for microcontrollers and peripheral components, ensuring hardware functionality aligned with project objectives. Collaborated with hardware teams to troubleshoot and optimize electrical designs for embedded systems. Utilized advanced debugging and testing tools, including JTAG, multimeters, and oscilloscopes, to ensure the functionality and reliability of embedded systems. Conducted thorough testing procedures to diagnose and resolve hardware and software issues, ensuring optimal performance of autonomous navigation kits for Reach Trucks. Identified critical bottlenecks and optimized system performance through code refinement and strategic priority tuning, ensuring efficient operation of autonomous navigation systems for Reach Trucks. Collaborated with cross-functional teams to ensure the seamless integration of the sotware stack of autonomous navigation kit with existing warehouse infrastructure and compatibility with various RT models. Spearheaded the research and development process to create a retrofit autonomous navigation kit tailored for integration onto clients’ Reach Trucks in the warehouses. Provided technical expertise and support during the integration phase of retrofit autonomous navigation kit , ensuring seamless installation and functionality on clients’ RTs. Technologies Used Communication Protocols (e.g., CANOpen, I2C) Safety Systems (Emergency Stop, Collision Detection) Event-Driven based Embedded Systems firmware Architecture Safety Systems (Emergency Stop, Collision Detection) Sensors : 2D Safety LiDARs Achievements: My contributions led to securing a contract with Indian warehouses for the pilot run of the Autonomous Navigation Kit on five units of their vehicles. Successfully delivered an autonomous navigation solution that significantly improved warehouse operational efficiency and safety standards. Received positive feedback from stakeholders for the seamless integration and robust performance of the autonomous navigation kit within existing warehouse infrastructure. Contributed to Flux Auto’s reputation as a leading provider of innovative warehouse automation solutions. Key Learnings: Gained insights into the complexities of developing autonomous systems for industrial applications. Enhanced skills in embedded systems design, sensor integration, and cross-functional collaboration. Developed a deeper understanding of safety-critical systems and their importance in industrial automation environments. ",
-  "wordCount" : "440",
+  "articleBody": "Description Developed an autonomous navigation kit for existing Reach Trucks (RTs) as part of Flux Auto’s comprehensive warehouse automation solution, following the guidelines of IEC 61508 which is Functional Safety of Electrical/Electronic/Programmable Electronic Safety-related Systems.\nKey Technologies and Skills Communication Protocols :\nCANopen Protocol : Integrated CANopen for robust communication among submodules of the modularized embedded system architecture. Developed custom CANopen nodes for various components, ensuring seamless interaction with the vehicle’s existing CAN bus and its subsystems and facilitating modular and scalable firmware architecture Embedded Communication Protocols : Developed low-level drivers for I2C, CAN, UART, and USB using HAL APIs and libraries provided by silicon vendors. Embedded Systems and RTOS :\nFreeRTOS : Deployed FreeRTOS for real-time task scheduling and execution on single-core ARM Cortex-M4 and M7 microcontrollers. Configured tasks for feedback data acquisition, decision-making algorithms and actuator controls, ensuring deterministic behavior and high system reliability. Event-Driven State Machine : Engineered an event-driven state machine to manage the autonomous navigation system’s states, enabling dynamic responses to environmental changes and system events. Control Systems :\nPID Control :\nDesigned and implemented PID control algorithm AC induction motor control systems, optimizing efficiency and performance. Developed software modules for real-time control and monitoring of BLDC motor parameters, ensuring precise speed and torque control. Collaborated with cross-functional teams to integrate PID Control algorithms into embedded systems, enhancing motor performance and reliability. FOC algorithm :\nDesigned and implemented Field-Oriented Control (FOC) algorithms for BLDC motor control systems, optimizing efficiency and performance. Developed software modules for real-time control and monitoring of BLDC motor parameters, ensuring precise speed and torque control. Collaborated with cross-functional teams to integrate FOC algorithms into embedded systems, enhancing motor performance and reliability. Device Drivers :\nI2C Protocol : Developed device drivers for MCP4441 and DS3502 digital potentiometers, and MCP23017 I/O expander, ensuring accurate and reliable communication and control. UART Protocol : Implemented drivers for various sensors like ultrasonic sensors, optimizing data transmission and reception. Also used as debugging port for various subsystems. Robotics and Sensor Integration :\nROS (Robot Operating System) : Utilized ROS to develop the robot’s motion control stack. Implemented ROS nodes for sensor data processing, lateral motion control and longitudinal motion, facilitating modular and scalable software architecture. Safety Systems : Developed safety systems including emergency stops and collision detection using Hokuyo Safety Scanner LiDARs. Electrical Designs :\nDesigned electronic control systems for the autonomous control of the vehicle using KiCAD. Reviewed schematics for microcontrollers and connected peripheral components to assist in verifying hardware functionality with cross-functional teams. Board Bring-up and Integration :\nParticipated in the board bring-up process for new hardware platforms. Worked closely with hardware engineers and controls experts to validate system functionality and resolve hardware/software integration issues. Key Contributions Research and Development\nSpearheaded the research and development process to create a retrofit autonomous navigation kit tailored for integration onto clients’ Reach Trucks in the warehouses. Provided technical expertise and support during the integration phase of retrofit autonomous navigation kit , ensuring seamless installation and functionality on clients’ RTs. System Architecture and Integration\nEngineered a fault-tolerant embedded systems architecture to optimize reliability, ensuring continuous autonomous operation of Reach Trucks (RTs). Facilitated seamless communication between RT’s stock system and the software stack of the Autonomous Navigation kit. Led and contributed to the firmware development of a modular, scalable and upgradable embedded systems architecture using FreeRTOS, C, C++, ROS and state machines, enabling easy integration of additional features and upgrades to meet evolving RT’s and warehouse automation needs. Demonstrated proficiency in developing and optimizing low-level drivers and peripheral interfaces for firmware of embedded systems. Ensured seamless integration with hardware components and safety sensors, resulting in maximized system performance and reliability. Reviewed and validated schematics for microcontrollers and peripheral components, ensuring hardware functionality aligned with project objectives. Collaborated with hardware teams to troubleshoot and optimize electrical designs for embedded systems. Utilized advanced debugging and testing tools, including JTAG, multimeters, and oscilloscopes, to ensure the functionality and reliability of embedded systems. Conducted thorough testing procedures to diagnose and resolve hardware and software issues, ensuring optimal performance of autonomous navigation kits for Reach Trucks. System Optimization and Performance Tuning\nIdentified critical bottlenecks and optimized system performance through code refinement and strategic priority tuning, ensuring efficient operation of autonomous navigation systems for Reach Trucks. Collaborated with cross-functional teams to ensure the seamless integration of the sotware stack of autonomous navigation kit with existing warehouse infrastructure and compatibility with various RT models. Achievements: My contributions led to securing a contract with Indian warehouses for the pilot run of the Autonomous Navigation Kit on five units of their vehicles. Successfully delivered an autonomous navigation solution that significantly improved warehouse operational efficiency and safety standards. Received positive feedback from stakeholders for the seamless integration and robust performance of the autonomous navigation kit within existing warehouse infrastructure. Contributed to Flux Auto’s reputation as a leading provider of innovative warehouse automation solutions. Key Learnings: Gained insights into the complexities of developing autonomous systems for industrial applications. Enhanced skills in embedded systems design, sensor integration, and cross-functional collaboration. Developed a deeper understanding of safety-critical systems and their importance in industrial automation environments. Technologies Used Communication Protocols (e.g., CANOpen, I2C) Safety Systems (Emergency Stop, Collision Detection) Event-Driven based Embedded Systems firmware Architecture Safety Systems (Emergency Stop, Collision Detection) Sensors : 2D Safety LiDARs ",
+  "wordCount" : "882",
   "inLanguage": "en",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -204,31 +204,104 @@
     <div class="post-meta">
 
 
-Apr 2021 - Jun 2024 | 2 years
+Aug 2021 - Aug 2024 | 3 years
 
 </div>
   </header> 
   <div class="post-content"><h3 id="description">Description<a hidden class="anchor" aria-hidden="true" href="#description">#</a></h3>
-<p>Developed an autonomous navigation kit for existing Reach Trucks (RTs) as part of Flux Auto&rsquo;s comprehensive warehouse automation solution.</p>
+<p>Developed an autonomous navigation kit for existing Reach Trucks (RTs) as part of Flux Auto&rsquo;s comprehensive warehouse automation solution, following the guidelines of IEC 61508 which is  Functional Safety of Electrical/Electronic/Programmable Electronic Safety-related Systems.</p>
+<h4 id="key-technologies-and-skills">Key Technologies and Skills<a hidden class="anchor" aria-hidden="true" href="#key-technologies-and-skills">#</a></h4>
+<ul>
+<li>
+<p><em><strong>Communication Protocols :</strong></em></p>
+<ul>
+<li><strong>CANopen Protocol :</strong> Integrated CANopen for robust communication among submodules of the modularized embedded system architecture. Developed custom CANopen nodes for various components, ensuring seamless interaction with the vehicle’s existing CAN bus and its subsystems and facilitating modular and scalable firmware architecture</li>
+<li><strong>Embedded Communication Protocols :</strong> Developed low-level drivers for I2C, CAN, UART, and USB using HAL APIs and libraries provided by silicon vendors.</li>
+</ul>
+</li>
+<li>
+<p><em><strong>Embedded Systems and RTOS :</strong></em></p>
+<ul>
+<li><strong>FreeRTOS :</strong> Deployed FreeRTOS for real-time task scheduling and execution on single-core ARM Cortex-M4 and M7 microcontrollers. Configured tasks for feedback data acquisition, decision-making algorithms and actuator controls, ensuring deterministic behavior and high system reliability.</li>
+<li><strong>Event-Driven State Machine :</strong> Engineered an event-driven state machine to manage the autonomous navigation system&rsquo;s states, enabling dynamic responses to environmental changes and system events.</li>
+</ul>
+</li>
+<li>
+<p><em><strong>Control Systems :</strong></em></p>
+<ul>
+<li>
+<p><strong>PID Control :</strong></p>
+<ul>
+<li>Designed and implemented PID control algorithm AC induction motor control systems, optimizing efficiency and performance.</li>
+<li>Developed software modules for real-time control and monitoring of BLDC motor parameters, ensuring precise speed and torque control.</li>
+<li>Collaborated with cross-functional teams to integrate PID Control algorithms into embedded systems, enhancing motor performance and reliability.</li>
+</ul>
+</li>
+<li>
+<p><strong>FOC algorithm :</strong></p>
+<ul>
+<li>Designed and implemented Field-Oriented Control (FOC) algorithms for BLDC motor control systems, optimizing efficiency and performance.</li>
+<li>Developed software modules for real-time control and monitoring of BLDC motor parameters, ensuring precise speed and torque control.</li>
+<li>Collaborated with cross-functional teams to integrate FOC algorithms into embedded systems, enhancing motor performance and reliability.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><em><strong>Device Drivers :</strong></em></p>
+<ul>
+<li><strong>I2C Protocol :</strong> Developed device drivers for MCP4441 and DS3502 digital potentiometers, and MCP23017 I/O expander, ensuring accurate and reliable communication and control.</li>
+<li><strong>UART Protocol :</strong> Implemented drivers for various sensors like ultrasonic sensors, optimizing data transmission and reception. Also used as debugging port for various subsystems.</li>
+</ul>
+</li>
+<li>
+<p><em><strong>Robotics and Sensor Integration :</strong></em></p>
+<ul>
+<li><strong>ROS (Robot Operating System) :</strong> Utilized ROS to develop the robot&rsquo;s motion control stack. Implemented ROS nodes for sensor data processing, lateral motion control and longitudinal motion, facilitating modular and scalable software architecture.</li>
+<li><strong>Safety Systems :</strong> Developed safety systems including emergency stops and collision detection using Hokuyo Safety Scanner LiDARs.</li>
+</ul>
+</li>
+<li>
+<p><em><strong>Electrical Designs :</strong></em></p>
+<ul>
+<li>Designed electronic control systems for the autonomous control of the vehicle using KiCAD.</li>
+<li>Reviewed schematics for microcontrollers and connected peripheral components to assist in verifying hardware functionality with cross-functional teams.</li>
+</ul>
+</li>
+<li>
+<p><em><strong>Board Bring-up and Integration :</strong></em></p>
+<ul>
+<li>Participated in the board bring-up process for new hardware platforms. Worked closely with hardware engineers and controls experts to validate system functionality and resolve hardware/software integration issues.</li>
+</ul>
+</li>
+</ul>
 <h4 id="key-contributions">Key Contributions<a hidden class="anchor" aria-hidden="true" href="#key-contributions">#</a></h4>
 <ul>
-<li>Engineered a fault-tolerant embedded systems architecture to optimize reliability, ensuring continuous autonomous operation of Reach Trucks (RTs). Facilitated seamless communication between RT&rsquo;s stock system and the software stack of the Autonomous Navigation kit.</li>
+<li>
+<p><em><strong>Research and Development</strong></em></p>
+<ul>
+<li>Spearheaded the research and development process to create a retrofit autonomous navigation kit tailored for integration onto clients&rsquo; Reach Trucks in the warehouses.</li>
+<li>Provided technical expertise and support during the integration phase of retrofit autonomous navigation kit , ensuring seamless installation and functionality on clients&rsquo; RTs.</li>
+</ul>
+</li>
+<li>
+<p><em><strong>System Architecture and Integration</strong></em></p>
+<ul>
+<li>Engineered a fault-tolerant embedded systems architecture to optimize reliability, ensuring continuous autonomous operation of Reach Trucks (RTs).</li>
+<li>Facilitated seamless communication between RT&rsquo;s stock system and the software stack of the Autonomous Navigation kit.</li>
 <li>Led and contributed to the firmware development of a modular, scalable and upgradable embedded systems architecture using FreeRTOS, C, C++, ROS and state machines, enabling easy integration of additional features and upgrades to meet evolving RT&rsquo;s and warehouse automation needs.</li>
 <li>Demonstrated proficiency in developing and optimizing low-level drivers and peripheral interfaces for firmware of embedded systems. Ensured seamless integration with hardware components and safety sensors, resulting in maximized system performance and reliability.</li>
 <li>Reviewed and validated schematics for microcontrollers and peripheral components, ensuring hardware functionality aligned with project objectives. Collaborated with hardware teams to troubleshoot and optimize electrical designs for embedded systems.</li>
 <li>Utilized advanced debugging and testing tools, including JTAG, multimeters, and oscilloscopes, to ensure the functionality and reliability of embedded systems. Conducted thorough testing procedures to diagnose and resolve hardware and software issues, ensuring optimal performance of autonomous navigation kits for Reach Trucks.</li>
+</ul>
+</li>
+<li>
+<p><em><strong>System Optimization and Performance Tuning</strong></em></p>
+<ul>
 <li>Identified critical bottlenecks and optimized system performance through code refinement and strategic priority tuning, ensuring efficient operation of autonomous navigation systems for Reach Trucks.</li>
 <li>Collaborated with cross-functional teams to ensure the seamless integration of the sotware stack of autonomous navigation kit with existing warehouse infrastructure and compatibility with various RT models.</li>
-<li>Spearheaded the research and development process to create a retrofit autonomous navigation kit tailored for integration onto clients&rsquo; Reach Trucks in the warehouses.</li>
-<li>Provided technical expertise and support during the integration phase of retrofit autonomous navigation kit , ensuring seamless installation and functionality on clients&rsquo; RTs.</li>
 </ul>
-<h4 id="technologies-used">Technologies Used<a hidden class="anchor" aria-hidden="true" href="#technologies-used">#</a></h4>
-<ul>
-<li>Communication Protocols (e.g., CANOpen, I2C)</li>
-<li>Safety Systems (Emergency Stop, Collision Detection)</li>
-<li>Event-Driven based Embedded Systems firmware Architecture</li>
-<li>Safety Systems (Emergency Stop, Collision Detection)</li>
-<li>Sensors : 2D Safety LiDARs</li>
+</li>
 </ul>
 <h4 id="achievements">Achievements:<a hidden class="anchor" aria-hidden="true" href="#achievements">#</a></h4>
 <ul>
@@ -243,6 +316,14 @@ Apr 2021 - Jun 2024 | 2 years
 <li>Enhanced skills in embedded systems design, sensor integration, and cross-functional collaboration.</li>
 <li>Developed a deeper understanding of safety-critical systems and their importance in industrial automation environments.</li>
 </ul>
+<h4 id="technologies-used">Technologies Used<a hidden class="anchor" aria-hidden="true" href="#technologies-used">#</a></h4>
+<ul>
+<li>Communication Protocols (e.g., CANOpen, I2C)</li>
+<li>Safety Systems (Emergency Stop, Collision Detection)</li>
+<li>Event-Driven based Embedded Systems firmware Architecture</li>
+<li>Safety Systems (Emergency Stop, Collision Detection)</li>
+<li>Sensors : 2D Safety LiDARs</li>
+</ul>
 
 
   </div>
@@ -253,6 +334,10 @@ Apr 2021 - Jun 2024 | 2 years
       <li><a href="https://sourabhmisal.github.io/tags/c-programming-language/">C (Programming Language)</a></li>
       <li><a href="https://sourabhmisal.github.io/tags/freertos/">FreeRTOS</a></li>
       <li><a href="https://sourabhmisal.github.io/tags/embedded-systems/">Embedded Systems</a></li>
+      <li><a href="https://sourabhmisal.github.io/tags/bldc-motor-control-system/">BLDC Motor Control System</a></li>
+      <li><a href="https://sourabhmisal.github.io/tags/ac-induction-motor-control-system/">AC Induction Motor Control System</a></li>
+      <li><a href="https://sourabhmisal.github.io/tags/pid-control/">PID Control</a></li>
+      <li><a href="https://sourabhmisal.github.io/tags/field-oriented-control-foc-algorithm/">Field Oriented Control (FOC) algorithm</a></li>
       <li><a href="https://sourabhmisal.github.io/tags/communication-protocols/">Communication Protocols</a></li>
       <li><a href="https://sourabhmisal.github.io/tags/canopen/">CANOpen</a></li>
       <li><a href="https://sourabhmisal.github.io/tags/i2c/">I2C</a></li>
