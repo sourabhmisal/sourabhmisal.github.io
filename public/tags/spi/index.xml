@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>SPI on Sourabh Misal</title>
     <link>http://localhost:1313/tags/spi/</link>
     <description>Recent content in SPI on Sourabh Misal</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/spi/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,14 +12,14 @@
       <link>http://localhost:1313/projects/table_tennis_shooting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/table_tennis_shooting/</guid>
-      <description>Description This was the project done at my first internship after my undergraduate course in electronics and communication engineering. Please have a look at the project using this Link Wrote and optimized firmware which provides spin capability for the robot. Wrote and optimized firmware for motor control systems of various motors used, including BLDC, Stepper and Servo Motor. Learnt PCB Designing and optimized design of control board using EasyEDA and KiCad Worked on a feedback loop system using IR sensor for the robot.</description>
+      <description>Internship Project</description>
     </item>
     <item>
       <title> Prototype of Wearable Cursor Control </title>
       <link>http://localhost:1313/projects/wearable_cursor_control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/wearable_cursor_control/</guid>
-      <description>Description This was a hobby project done for emulating mouse control using hand gestures. Please have a look at the link for seeing the project in action The motivation was to create a more seamless user experience for the human-computer interaction. The hand gestures were picked up by the MPU6050 IC which is a three-axis accelerometer and three-axis gyroscope Micro Electro-mechanical system (MEMS). Wrote and optimized firmware which provides spin capability for the robot.</description>
+      <description>Hobby Project</description>
     </item>
   </channel>
 </rss>

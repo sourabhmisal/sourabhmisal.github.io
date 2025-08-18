@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/extra-curriculars/</loc>
+  </url><url>
     <loc>http://localhost:1313/projects/drivn_auto_nav_kit/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/vector_auto_nav_kit/</loc>
@@ -20,6 +22,8 @@
   </url><url>
     <loc>http://localhost:1313/experience/embedded_systems_engineer_flux_auto_houston/</loc>
   </url><url>
+    <loc>http://localhost:1313/experience/firmware_internship_synaptrix_labs/</loc>
+  </url><url>
     <loc>http://localhost:1313/experience/robotics_simulation_engineer_flux_auto_india/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/wearable_cursor_control/</loc>
@@ -32,15 +36,21 @@
   </url><url>
     <loc>http://localhost:1313/projects/home_service_robot_proto/</loc>
   </url><url>
+    <loc>http://localhost:1313/experience/embedded_systems_engineer_internship_loadguard/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/ac-induction-motor-control-system/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/actuator-control-system/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/adc/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/adc/dac/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/amcl/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/bldc-motor-control-system/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/bootloader/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/c-programming-language/</loc>
   </url><url>
@@ -88,6 +98,8 @@
   </url><url>
     <loc>http://localhost:1313/tags/localization/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/nrf52840/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/pid-control/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/pid-control-algorithm/</loc>
@@ -95,6 +107,8 @@
     <loc>http://localhost:1313/projects/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/react-js/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/recovery/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/research/</loc>
   </url><url>
@@ -109,6 +123,8 @@
     <loc>http://localhost:1313/tags/servo-motor-control-system/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/shell-scripting/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/signal-processing/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/slam/</loc>
   </url><url>
@@ -130,8 +146,12 @@
   </url><url>
     <loc>http://localhost:1313/tags/usb/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/usb-dfu/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/version-control/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/wifi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/zephyr-rtos/</loc>
   </url>
 </urlset>

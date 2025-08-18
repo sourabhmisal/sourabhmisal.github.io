@@ -1,0 +1,4 @@
+.content img[src$="science_talent_exam_page-0006.jpg"] {
+  width: 40% !important;     /* e.g., 40% of content width */
+  height: auto !important;
+}

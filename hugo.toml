@@ -19,13 +19,13 @@ weight = 10
 identifier = "projects"
 name = "Projects"
 url = "/projects"
-weight = 30
+weight = 40
 
 [[menu.main]]
 identifier = "experience"
 name = "Experience"
 url = "/experience"
-weight = 40
+weight = 30
 
 # [[menu.main]]
 # identifier = "awards"
@@ -33,23 +33,29 @@ weight = 40
 # url = "/awards"
 # weight = 50
 
+# [[menu.main]]
+# identifier = "extra"
+# name = "Extra-Curriculars"
+# url = "/extra-curriculars"
+# weight = 50
+
+# [[menu.main]]
+# identifier = "blogs"
+# name = "Blogs"
+# url = "/Blogs"
+# weight = 50
+
 [[menu.main]]
 identifier = "extra"
 name = "Extra-Curriculars"
 url = "/extra-curriculars"
-weight = 50
-
-[[menu.main]]
-identifier = "blogs"
-name = "Blogs"
-url = "/Blogs"
 weight = 60
 
-[[menu.main]]
-identifier = "search"
-name = "Search"
-url = "/search"
-weight = 70
+# [[menu.main]]
+# identifier = "search"
+# name = "Search"
+# url = "/search"
+# weight = 70
 
 [params]
 showToc = true
@@ -63,7 +69,7 @@ hideDescriptionInList = false
   [params.profileMode]
   enabled = true
   title = "Sourabh Misal"
-  subtitle = "As an Team Coordinator and Embedded Systems Engineer at [**Flux Auto**](https://fluxauto.xyz), I'm not just building embedded systems—I'm engineering the future of automation with [**Drivn**](https://www.drivnhq.com/), our groundbreaking autonomous navigation kit. Picture this: transforming everyday manually driven vehicles into autonomously manuevering sophisticated marvels that navigate warehouses and farms, all while exuding safety, reliablity, scalability and innovation!! Driven by a relentless thirst for mastery in embedded systems, robotics, autonomy, and IoT, I aspire to lead teams in architecting innovative products, seamlessly integrating cutting-edge technologies. Challenges have been invaluable lessons, fueling rapid growth, invaluable learning opportunities and areas for improvement. Each hurdle has swiftly honed my skills, fostering exponential growth and resilience. My goal: Crafting impactful solutions that optimize workflows, improving industries positively and enriching lives."
+  subtitle = "I am an Embedded Systems Engineer specializing in Zephyr/FreeRTOS, bootloaders & DFU, and sensor-driven control systems—building across robots, autonomous navigation kits, drones, medical devices, and supply-chain platforms. I’ve delivered production-grade autonomy firmware at Flux Auto; research tooling at NYU ARPL; data-logging stacks at LoadGuard; and a custom Zephyr bootloader plus high-speed nRF52840 drivers at Synaptrix Labs—always optimizing for safety, reliability, and scalability. Recent highlights include a dual-slot Zephyr bootloader with USB DFU and reset-aware handoff; a FreeRTOS multi-sensor pipeline logging RTC-stamped data to microSD for 7+ days; tight vision/IMU sync at 120 Hz using PX4 triggers with ONNX/TensorRT on Jetson; and CANopen-based control for autonomous kits that cut integration time by ~70% and improved responsiveness by ~30%, alongside safety-critical braking/actuation and I²C/SPI/USB driver development across platforms."
   imageUrl = "home/sourabh_misal_pic.jpg"
   imageWidth = 220
   imageHeight = 270

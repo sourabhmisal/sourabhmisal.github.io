@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Sourabh Misal</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Sourabh Misal</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -29,6 +29,13 @@
       <description></description>
     </item>
     <item>
+      <title>ADC/DAC</title>
+      <link>http://localhost:1313/tags/adc/dac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/adc/dac/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>AMCL</title>
       <link>http://localhost:1313/tags/amcl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -40,6 +47,13 @@
       <link>http://localhost:1313/tags/bldc-motor-control-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/bldc-motor-control-system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bootloader</title>
+      <link>http://localhost:1313/tags/bootloader/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bootloader/</guid>
       <description></description>
     </item>
     <item>
@@ -190,6 +204,13 @@
       <description></description>
     </item>
     <item>
+      <title>NRF52840</title>
+      <link>http://localhost:1313/tags/nrf52840/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/nrf52840/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>PID Control</title>
       <link>http://localhost:1313/tags/pid-control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -208,6 +229,13 @@
       <link>http://localhost:1313/tags/react-js/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/react-js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recovery</title>
+      <link>http://localhost:1313/tags/recovery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/recovery/</guid>
       <description></description>
     </item>
     <item>
@@ -257,6 +285,13 @@
       <link>http://localhost:1313/tags/shell-scripting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/shell-scripting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Signal Processing</title>
+      <link>http://localhost:1313/tags/signal-processing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/signal-processing/</guid>
       <description></description>
     </item>
     <item>
@@ -316,6 +351,13 @@
       <description></description>
     </item>
     <item>
+      <title>USB DFU</title>
+      <link>http://localhost:1313/tags/usb-dfu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/usb-dfu/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Version Control</title>
       <link>http://localhost:1313/tags/version-control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -327,6 +369,13 @@
       <link>http://localhost:1313/tags/wifi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/wifi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zephyr RTOS</title>
+      <link>http://localhost:1313/tags/zephyr-rtos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/zephyr-rtos/</guid>
       <description></description>
     </item>
   </channel>

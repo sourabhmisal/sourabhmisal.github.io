@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ADC on Sourabh Misal</title>
     <link>http://localhost:1313/tags/adc/</link>
     <description>Recent content in ADC on Sourabh Misal</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/adc/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,77 +12,84 @@
       <link>http://localhost:1313/projects/drivn_auto_nav_kit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/drivn_auto_nav_kit/</guid>
-      <description>Description Developed an autonomous navigation kit for existing Battery-Operated Pallet Trucks (BOPTs) as part of Flux Auto&amp;rsquo;s comprehensive warehouse automation solution, following the guidelines of IEC 61508 which is Functional Safety of Electrical/Electronic/Programmable Electronic Safety-related Systems.&#xA;Key Technologies and Skills Communication Protocols :&#xA;CANopen Protocol : Integrated CANopen for robust communication among submodules of the modularized embedded system architecture. Developed custom CANopen nodes for various components, ensuring seamless interaction with the vehicle’s existing CAN bus and its subsystems and facilitating modular and scalable firmware architecture Embedded Communication Protocols : Developed low-level drivers for I2C, CAN, UART, and USB using HAL APIs and libraries provided by silicon vendors.</description>
+      <description>Flux Auto</description>
     </item>
     <item>
       <title> Vector : Autonomous Navigation Kit for existing Reach Trucks (RTs)</title>
       <link>http://localhost:1313/projects/vector_auto_nav_kit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/vector_auto_nav_kit/</guid>
-      <description>Description Developed an autonomous navigation kit for existing Reach Trucks (RTs) as part of Flux Auto&amp;rsquo;s comprehensive warehouse automation solution, following the guidelines of IEC 61508 which is Functional Safety of Electrical/Electronic/Programmable Electronic Safety-related Systems.&#xA;Key Technologies and Skills Communication Protocols :&#xA;CANopen Protocol : Integrated CANopen for robust communication among submodules of the modularized embedded system architecture. Developed custom CANopen nodes for various components, ensuring seamless interaction with the vehicle’s existing CAN bus and its subsystems and facilitating modular and scalable firmware architecture Embedded Communication Protocols : Developed low-level drivers for I2C, CAN, UART, and USB using HAL APIs and libraries provided by silicon vendors.</description>
+      <description>Flux Auto</description>
     </item>
     <item>
       <title>Team Coordinator, Embedded Systems</title>
       <link>http://localhost:1313/experience/team_coordinator_flux_auto_india/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experience/team_coordinator_flux_auto_india/</guid>
-      <description>Description Leading the development of decentralized embedded systems for Autonomous Navigation Retrofit Kits in Ma- terial Handling Equipments, achieving a 30% reduction in wiring and hardware issues, simplifying installation. Achieved 60% increase in firmware response by employing a Test-Driven Development (TDD) lifecycle, design principles of event-driven state machines. Designed the modular hardware architecture incorporating CAN-based communication network for lateral control, longitudinal control, brake control and auxiliary control sub-modules of ANR Kits.</description>
+      <description>Flux Auto  |  Bengaluru, India</description>
     </item>
     <item>
       <title>Team Coordinator, Embedded Systems</title>
       <link>http://localhost:1313/experience/team_coordinator_flux_auto_houston/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experience/team_coordinator_flux_auto_houston/</guid>
-      <description>Description Designed and developed architecture of Decentralized Embedded Systems for Autonomous Navigation Retrofit (ANR) Kits for Battery-Operated Pallet Trucks (BOPTs) along with my team Developed, Implemented and tested hardware stack of Decentralized Embedded Systems for (ANR) Kits for BOPTs Developed, Implemented and tested event-driven, component-based, RTOS and microkernel fusion based firmware stack based on test-driven development (TDD) of Decentralized Embedded Systems for ANR Kits for BOPTs </description>
+      <description>Flux Auto  |  Houston, Texas, United States</description>
     </item>
     <item>
       <title> Ceres : Autonomous Navigation Kit for Tractors</title>
       <link>http://localhost:1313/projects/ceres_auto_nav_kit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/ceres_auto_nav_kit/</guid>
-      <description>Description Designed and implemented embedded control systems of autonomous navigation kit for tractors as part of Flux Auto&amp;rsquo;s comprehensive agricultural automation solution, following the guidelines of ISO 18497 and 25119-1 which is Agricultural machinery and tractors — Safety of partially automated, semi-autonomous and autonomous machinery&#xA;Key Technologies and Skills Communication Protocols :&#xA;CANopen Protocol : Integrated CANopen for robust communication among submodules of the modularized embedded system architecture. Developed custom CANopen nodes for various components, ensuring seamless interaction with the vehicle’s existing CAN bus and its subsystems and facilitating modular and scalable firmware architecture Embedded Communication Protocols : Developed low-level drivers for I2C, CAN, UART, and USB using HAL APIs and libraries provided by silicon vendors.</description>
+      <description>Flux Auto</description>
     </item>
     <item>
       <title>Embedded Systems Engineer</title>
       <link>http://localhost:1313/experience/embedded_systems_engineer_flux_auto_india/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experience/embedded_systems_engineer_flux_auto_india/</guid>
-      <description>Description • Research &amp;amp; Reverse engineering on the Electric Vehicles, Trucks, RTs, Tractor for study on vehicle dynamics and operations, sensor stack placement, communication network &amp;amp; integration of Autonomous Navigation Kits. • Designed embedded hardware for centralized Autonomous Navigation Kits in Electric Vehicles, Trucks, RTs. • Developed embedded firmware for centralized Autonomous Navigation Kits in Electric Vehicles, Trucks, RTs. • Designed embedded hardware stack of decentralized Autonomous Navigation Kits for Tractor.</description>
+      <description>Flux Auto  |  Bengaluru, Karnataka, India</description>
     </item>
     <item>
       <title>Embedded Systems Engineer</title>
       <link>http://localhost:1313/experience/embedded_systems_engineer_flux_auto_houston/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experience/embedded_systems_engineer_flux_auto_houston/</guid>
-      <description>Description Did Research and Development of retrofit autonomous navigation kit and its integration on MHEs (Material Handling Equipments). Design of embedded firmware control system&amp;rsquo;s architecture for the retrofit autonomous navigation kit. Implemented Emergency braking system. </description>
+      <description>Flux Auto  |  Houston, Texas, United States</description>
+    </item>
+    <item>
+      <title>Firmware Engineer (Internship)</title>
+      <link>http://localhost:1313/experience/firmware_internship_synaptrix_labs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/firmware_internship_synaptrix_labs/</guid>
+      <description>Synaptrix Labs — Non-Invasive Brain-Computer Interface | Manhattan, NY, USA</description>
     </item>
     <item>
       <title>Robotics Simulation Engineer</title>
       <link>http://localhost:1313/experience/robotics_simulation_engineer_flux_auto_india/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experience/robotics_simulation_engineer_flux_auto_india/</guid>
-      <description>Description • Designed Hardware-in-the-loop (HIL) analysis with embedded system of the Autonomous Navigation Kit on Truck, which increased testing time by 15%. • Developed ROS bridge software in C++ for the API of VTD Simulation tool . • Developed SLAM on Turtlebot3 robot on Gazebo Simulation tool using ROS and C++. • Researched on Global NCAP Testing standards and implemented in VTD Simulation tool.</description>
+      <description>Flux Auto  |  Bengaluru, Karnataka, India</description>
     </item>
     <item>
       <title>Electronics Engineer | Internship</title>
       <link>http://localhost:1313/experience/electronics_engineer_internship_flux_auto_india/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experience/electronics_engineer_internship_flux_auto_india/</guid>
-      <description>Description Wrote and optimized firmware which provides spin capability for the robot. Learnt PCB Designing and optimized design of control board using EasyEDA and KiCad Debugging issues of the robot Worked on a feedback loop system using IR sensor for the robot. Worked on system to detect bounce using piezo-electric sensors. Learnt about improvements in designing the product and optimization of embedded software. </description>
+      <description>Flux Auto  |  Bengaluru, Karnataka, India</description>
     </item>
     <item>
       <title>Robotics Simulation Intern</title>
       <link>http://localhost:1313/experience/robotics_simulation_intern_flux_auto_india/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experience/robotics_simulation_intern_flux_auto_india/</guid>
-      <description>Description • Designed Hardware-in-the-loop (HIL) analysis with embedded system of the Autonomous Navigation Kit on Truck, which increased testing time by 15%. • Developed ROS bridge software in C++ for the API of VTD Simulation tool . • Developed SLAM on Turtlebot3 robot on Gazebo Simulation tool using ROS and C++. • Researched on Global NCAP Testing standards and implemented in VTD Simulation tool.</description>
+      <description>Flux Auto  |  Bengaluru, Karnataka, India</description>
     </item>
     <item>
       <title> Prototype of Home service robot in virtual world using TurtleBot</title>
       <link>http://localhost:1313/projects/home_service_robot_proto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/home_service_robot_proto/</guid>
-      <description>Description This project was done with the aim of demonstrating the knowledge of Simultaneous Localization and Mapping (SLAM) and Navigation Goal mode of a robot. I had done the simulation setup on gazebo for interfacing robot with different ROS packages, some of which are official ROS packages and others are packages that are created. The navigation of robot to specified pick-up and drop-off zones within the Gazebo world using localization is done using AMCL and trajectory planning through ROS Navigation stack, which relies on Dijkstra&amp;rsquo;s algorithm.</description>
+      <description>Hobby</description>
     </item>
   </channel>
 </rss>
