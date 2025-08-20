@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Automotive on Sourabh Misal</title>
+    <link>http://localhost:1313/tags/automotive/</link>
+    <description>Recent content in Automotive on Sourabh Misal</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/automotive/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embedded Systems Engineer &amp; Product Architect</title>
+      <link>http://localhost:1313/experience/embedded_systems_engineer_product_architect_euclid_ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/embedded_systems_engineer_product_architect_euclid_ai/</guid>
+      <description>Euclid.ai  |  Bengaluru, Karnataka, India</description>
+    </item>
+  </channel>
+</rss>

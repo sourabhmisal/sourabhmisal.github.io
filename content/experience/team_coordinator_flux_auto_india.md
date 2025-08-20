@@ -1,23 +1,31 @@
 ---
-title: "Team Coordinator, Embedded Systems"
-description: "Flux Auto  |  Bengaluru, India"
+title: "Embedded Systems Engineer & Team Coordinator"
+description: "Flux Auto  |  Bengaluru, India [onsite: Houston, TX, USA]"
 hideSummary: true
-dateString: "Feb 2023 - Present | 1 yr 3 mos"
+dateString: "Apr 2020 - Aug 2024 | 4 yr 4 mos"
 draft: false
 tags: ["STM32", "C (Programming Language)", "FreeRTOS", "Embedded Systems", "Communication Protocols", "CANOpen", "I2C", "GPIO", "USB", "UART", "ADC", "CI/CD", "Reverse Engineering", "Case Study"]
 showToc: false
-weight: 301
+weight: 304
 --- 
 
 ### Description
 
-- Leading the development of decentralized embedded systems for Autonomous Navigation Retrofit Kits in Ma-
-terial Handling Equipments, achieving a 30% reduction in wiring and hardware issues, simplifying installation.
-- Achieved 60% increase in firmware response by employing a Test-Driven Development (TDD) lifecycle,
-design principles of event-driven state machines.
-- Designed the modular hardware architecture incorporating CAN-based communication network for lateral
-control, longitudinal control, brake control and auxiliary control sub-modules of ANR Kits.
-- Spearheading the collaboration with Godrej & Boyce Manufacturing Company Ltd. for implementation of
-autonomous embedded systems into the vehicle stock sysytem of their range of MHEs.
-- Spearheading collaboration with International Tractors Ltd. for the implementation of autonomous embedded
-systems, overseeing navigational control and auxiliary control for their agricultural products.
+* Architected decentralized embedded hardware and firmware stacks for Autonomous Navigation Retrofit (ANR) Kits in Battery-Operated Pallet Trucks (BOPTs), Reach Trucks, and Tractors, enabling scalable deployment across multiple vehicle platforms.
+
+* Led system integration of CAN-based communication networks for lateral, longitudinal, braking, and auxiliary control, streamlining cross-platform deployment and reducing wiring complexity by 30%, simplifying installation.
+
+* Delivered event-driven, RTOS-based firmware stacks built on microkernel fusion and Test-Driven Development (TDD) principles, boosting responsiveness by 60% and cutting command-to-response latency by 30 ms.
+
+* Directed electrical and hardware architecture decisions, including microcontroller selection, schematic design, and PCB layouts, ensuring robust and modular embedded control modules for Autonomous Robotics Kits.
+
+* Developed safety-critical emergency braking systems for BOPTs and Tractors, integrating linear actuators and 2D laser scanners (Hokuyo/SICK) to guarantee reliable obstacle detection and safe autonomous stops.
+
+* Authored and optimized device drivers for key peripheral ICs including MCP23017 (GPIO Expander), PCA9685 (PWM Timer), DS3502 & MCP4441 (Digital Potentiometers), and INA230 (Power Sensing), broadening sensor/actuator interfacing capabilities.
+
+* Executed Hardware-in-the-Loop (HIL) and PCB-in-the-loop testing frameworks using VTD Simulator APIs, cutting validation cycles by 15% while ensuring robust simulation of autonomous vehicle dynamics.
+
+* Researched and reverse-engineered vehicle platforms (EVs, Trucks, RTs, Tractors), analyzing vehicle dynamics, sensor stack placement, and communication protocols to optimize integration of ANR Kits.
+
+* Coordinated and collaborated with cross-functional teams (mechanical, electrical, robotics software) and external partners to successfully integrate autonomous systems into commercial vehicle fleets.
+

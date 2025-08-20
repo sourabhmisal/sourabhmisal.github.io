@@ -22,18 +22,11 @@
       <description>Flux Auto</description>
     </item>
     <item>
-      <title>Team Coordinator, Embedded Systems</title>
-      <link>http://localhost:1313/experience/team_coordinator_flux_auto_india/</link>
+      <title>Embedded Systems Engineer (Internship)</title>
+      <link>http://localhost:1313/experience/embedded_systems_engineer_internship_loadguard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/team_coordinator_flux_auto_india/</guid>
-      <description>Flux Auto  |  Bengaluru, India</description>
-    </item>
-    <item>
-      <title>Team Coordinator, Embedded Systems</title>
-      <link>http://localhost:1313/experience/team_coordinator_flux_auto_houston/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/team_coordinator_flux_auto_houston/</guid>
-      <description>Flux Auto  |  Houston, Texas, United States</description>
+      <guid>http://localhost:1313/experience/embedded_systems_engineer_internship_loadguard/</guid>
+      <description>LoadGuard — Embedded ML for Supply Chain Security | Brooklyn, NY, USA</description>
     </item>
     <item>
       <title> Ceres : Autonomous Navigation Kit for Tractors</title>
@@ -43,13 +36,6 @@
       <description>Flux Auto</description>
     </item>
     <item>
-      <title>Embedded Systems Engineer</title>
-      <link>http://localhost:1313/experience/embedded_systems_engineer_flux_auto_india/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/embedded_systems_engineer_flux_auto_india/</guid>
-      <description>Flux Auto  |  Bengaluru, Karnataka, India</description>
-    </item>
-    <item>
       <title>Table Tennis Shooting Robot </title>
       <link>http://localhost:1313/projects/table_tennis_shooting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -57,18 +43,11 @@
       <description>Internship Project</description>
     </item>
     <item>
-      <title>Embedded Systems Engineer</title>
-      <link>http://localhost:1313/experience/embedded_systems_engineer_flux_auto_houston/</link>
+      <title>Embedded Systems Engineer &amp; Team Coordinator</title>
+      <link>http://localhost:1313/experience/team_coordinator_flux_auto_india/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/embedded_systems_engineer_flux_auto_houston/</guid>
-      <description>Flux Auto  |  Houston, Texas, United States</description>
-    </item>
-    <item>
-      <title>Robotics Simulation Engineer</title>
-      <link>http://localhost:1313/experience/robotics_simulation_engineer_flux_auto_india/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/robotics_simulation_engineer_flux_auto_india/</guid>
-      <description>Flux Auto  |  Bengaluru, Karnataka, India</description>
+      <guid>http://localhost:1313/experience/team_coordinator_flux_auto_india/</guid>
+      <description>Flux Auto  |  Bengaluru, India [onsite: Houston, TX, USA]</description>
     </item>
     <item>
       <title> Prototype of Wearable Cursor Control </title>
@@ -76,20 +55,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/wearable_cursor_control/</guid>
       <description>Hobby Project</description>
-    </item>
-    <item>
-      <title>Electronics Engineer | Internship</title>
-      <link>http://localhost:1313/experience/electronics_engineer_internship_flux_auto_india/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/electronics_engineer_internship_flux_auto_india/</guid>
-      <description>Flux Auto  |  Bengaluru, Karnataka, India</description>
-    </item>
-    <item>
-      <title>Robotics Simulation Intern</title>
-      <link>http://localhost:1313/experience/robotics_simulation_intern_flux_auto_india/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/robotics_simulation_intern_flux_auto_india/</guid>
-      <description>Flux Auto  |  Bengaluru, Karnataka, India</description>
     </item>
   </channel>
 </rss>
