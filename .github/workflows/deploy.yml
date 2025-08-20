@@ -71,7 +71,7 @@ jobs:
       - name: Build
         env:
           HUGO_ENV: production
-        run: hugo --minify
+        run: hugo --minify --cleanDestinationDir
 
       - name: Checkout destination (gh-pages)
         if: github.ref == 'refs/heads/main'
@@ -83,10 +83,14 @@ jobs:
       - name: Deploy
         if: github.ref == 'refs/heads/main'
         run: |
+          # preserve CNAME if you have a custom domain
+          if [ -f ${GITHUB_WORKSPACE}/built-site/CNAME ]; then
+            cp ${GITHUB_WORKSPACE}/built-site/CNAME public/
+          fi
           rsync -av --delete public/ ${GITHUB_WORKSPACE}/built-site/
           cd ${GITHUB_WORKSPACE}/built-site
-          git add .
           git config user.name 'sourabhmisal1'
           git config user.email 'sourabhmisal1@gmail.com'
+          git add .
           git commit -m 'Updated site' || echo "No changes to commit"
           git push
