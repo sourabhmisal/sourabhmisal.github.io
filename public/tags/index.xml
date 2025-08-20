@@ -29,13 +29,6 @@
       <description></description>
     </item>
     <item>
-      <title>ADC/DAC</title>
-      <link>http://localhost:1313/tags/adc/dac/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/adc/dac/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>AMCL</title>
       <link>http://localhost:1313/tags/amcl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -82,13 +75,6 @@
       <link>http://localhost:1313/tags/bno055/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/bno055/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bootloader</title>
-      <link>http://localhost:1313/tags/bootloader/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bootloader/</guid>
       <description></description>
     </item>
     <item>
@@ -323,13 +309,6 @@
       <description></description>
     </item>
     <item>
-      <title>NRF52840</title>
-      <link>http://localhost:1313/tags/nrf52840/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/nrf52840/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>NuttX</title>
       <link>http://localhost:1313/tags/nuttx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -383,13 +362,6 @@
       <link>http://localhost:1313/tags/react-js/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/react-js/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recovery</title>
-      <link>http://localhost:1313/tags/recovery/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/recovery/</guid>
       <description></description>
     </item>
     <item>
@@ -491,13 +463,6 @@
       <description></description>
     </item>
     <item>
-      <title>Signal Processing</title>
-      <link>http://localhost:1313/tags/signal-processing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/signal-processing/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>SLAM</title>
       <link>http://localhost:1313/tags/slam/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -568,13 +533,6 @@
       <description></description>
     </item>
     <item>
-      <title>USB DFU</title>
-      <link>http://localhost:1313/tags/usb-dfu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/usb-dfu/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>VEML7700</title>
       <link>http://localhost:1313/tags/veml7700/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -593,13 +551,6 @@
       <link>http://localhost:1313/tags/wifi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/wifi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Zephyr RTOS</title>
-      <link>http://localhost:1313/tags/zephyr-rtos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/zephyr-rtos/</guid>
       <description></description>
     </item>
   </channel>

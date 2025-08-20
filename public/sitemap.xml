@@ -38,8 +38,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/adc/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/adc/dac/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/amcl/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/automotive/</loc>
@@ -53,8 +51,6 @@
     <loc>http://localhost:1313/tags/bme688/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/bno055/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/bootloader/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/c-programming-language/</loc>
   </url><url>
@@ -126,8 +122,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/motor-control/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/nrf52840/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/nuttx/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/onnx/</loc>
@@ -145,8 +139,6 @@
     <loc>http://localhost:1313/tags/px4/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/react-js/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/recovery/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/research/</loc>
   </url><url>
@@ -176,8 +168,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/shell-scripting/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/signal-processing/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/slam/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -202,14 +192,10 @@
   </url><url>
     <loc>http://localhost:1313/tags/usb/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/usb-dfu/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/veml7700/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/version-control/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/wifi/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/zephyr-rtos/</loc>
   </url>
 </urlset>
