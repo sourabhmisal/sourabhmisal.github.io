@@ -114,16 +114,6 @@ For a target ATT MTU of **N** bytes, set:
 | `CONFIG_BT_BUF_ACL_TX_SIZE` | 251 | Host to controller | Size of one HCI ACL packet. Not the MTU. |
 | `CONFIG_BT_CTLR_DATA_LENGTH_MAX` | 251 | Over the air | Link-layer payload (DLE). Cannot go above 251. |
 
-```mermaid
-flowchart TD
-    A["TX MTU<br/>= L2CAP_TX_MTU"] --> C["Local ATT MTU<br/>= min(TX MTU, RX MTU)"]
-    B["RX MTU<br/>= BUF_ACL_RX_SIZE − 4"] --> C
-    C --> D["MTU exchange with peer"]
-    P["Peer's ATT MTU"] --> D
-    D --> E["Connection ATT MTU<br/>= min(local, peer)"]
-    E --> F["Largest notification value<br/>= ATT MTU − 3"]
-```
-
 Zephyr sends one value in the MTU exchange: the smaller of its TX MTU and RX MTU (`BT_LOCAL_ATT_MTU_UATT` in `att_internal.h`). The connection then uses the smaller of the two devices' values.
 
 ### Example: TX 1024, RX buffer 1027
