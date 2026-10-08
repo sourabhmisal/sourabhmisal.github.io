@@ -56,6 +56,19 @@ The ATT layer sends larger packets. GATT notifications and writes travel as ATT 
 
 If an ATT packet is larger than 251 bytes, L2CAP splits it into several link-layer packets. The receiver joins the fragments into the full ATT packet again.
 
+L2CAP uses two terms for its data:
+
+- **SDU (Service Data Unit):** the block that an upper layer gives to L2CAP. For GATT, one full ATT packet is one SDU.
+- **PDU (Protocol Data Unit):** the SDU plus the 4-byte L2CAP header (2-byte length, 2-byte channel ID). ATT uses fixed channel 0x0004.
+
+```
+ ATT        [ ATT header (3 B) | value ]           <- L2CAP SDU
+ L2CAP      [ L2CAP header (4 B) | SDU ]           <- L2CAP PDU
+ Link layer [ frag 1 ][ frag 2 ] ... [ frag n ]    <- each <= 251 B
+```
+
+The L2CAP length field is 16 bits, so the format allows an SDU of up to 65535 bytes. The radio never sees the full SDU, only the fragments.
+
 A 2000-byte notification therefore goes over the air as about **eight** link-layer packets, usually in one connection event.
 
 ## Fragmentation does not lose data
@@ -88,17 +101,65 @@ These are ATT MTU limits. The link-layer limit is 251 bytes on all of them.
 
 Do not hard-code these numbers in an app. Read the negotiated value after the connection and size each write to `MTU - 3` bytes.
 
-## Why my 2000-byte notifications work
+## Setting a large ATT MTU in Zephyr
 
-- Both ends run Zephyr, and Zephyr does not enforce the 512-byte limit.
-- Both ends set a matching large MTU.
-- A phone or PC central caps the MTU at about 517 bytes, so it would reject these notifications. For those centrals, keep notifications at 512 bytes or less.
+A large MTU is an **ATT** change. You also make the **L2CAP host buffer** large enough to hold it. The **link layer** stays at 251 bytes.
+
+For a target ATT MTU of **N** bytes, set:
+
+| Setting | Value | Direction | What it controls |
+|---|---|---|---|
+| `CONFIG_BT_L2CAP_TX_MTU` | N | Send | Largest ATT packet this device sends |
+| `CONFIG_BT_BUF_ACL_RX_SIZE` | N + 4 | Receive | Host buffer for one reassembled L2CAP PDU. RX MTU = this − 4 (L2CAP header). |
+| `CONFIG_BT_BUF_ACL_TX_SIZE` | 251 | Host to controller | Size of one HCI ACL packet. Not the MTU. |
+| `CONFIG_BT_CTLR_DATA_LENGTH_MAX` | 251 | Over the air | Link-layer payload (DLE). Cannot go above 251. |
+
+```mermaid
+flowchart TD
+    A["TX MTU<br/>= L2CAP_TX_MTU"] --> C["Local ATT MTU<br/>= min(TX MTU, RX MTU)"]
+    B["RX MTU<br/>= BUF_ACL_RX_SIZE − 4"] --> C
+    C --> D["MTU exchange with peer"]
+    P["Peer's ATT MTU"] --> D
+    D --> E["Connection ATT MTU<br/>= min(local, peer)"]
+    E --> F["Largest notification value<br/>= ATT MTU − 3"]
+```
+
+Zephyr sends one value in the MTU exchange: the smaller of its TX MTU and RX MTU (`BT_LOCAL_ATT_MTU_UATT` in `att_internal.h`). The connection then uses the smaller of the two devices' values.
+
+### Example: TX 1024, RX buffer 1027
+
+| Step | Value |
+|---|---|
+| TX MTU | 1024 |
+| RX MTU | 1027 − 4 = 1023 |
+| Local ATT MTU | min(1024, 1023) = **1023** |
+| Largest notification value | 1023 − 3 = **1020 bytes** |
+
+The 4-byte L2CAP header makes the RX side one byte smaller than expected. To get a symmetric 1024, set `CONFIG_BT_BUF_ACL_RX_SIZE=1028`.
+
+### Pitfall: DLE can silently stay at 27 bytes
+
+`CONFIG_BT_CTLR_DATA_LENGTH_MAX` defaults to `CONFIG_BT_BUF_ACL_RX_SIZE` only when that value is 251 or less. Above 251, the default is **27**. With a large RX buffer, set `CONFIG_BT_CTLR_DATA_LENGTH_MAX=251` explicitly. If you do not, the large MTU still works, but each link-layer packet carries 27 bytes, and throughput drops.
+
+### Limits
+
+- `CONFIG_BT_L2CAP_TX_MTU` has a Kconfig range of 23 to 2000.
+- Both devices must use the same large values. The connection uses the smaller one.
+
+## Why large notifications work between two Zephyr devices
+
+- Both ends set a large MTU with the settings above.
+- On the **send** side, Zephyr does not check the 512-byte attribute limit.
+- On the **receive** side, Zephyr **4.4.x and earlier** accept values above 512 bytes. Zephyr **4.5 (from v4.5.0-rc1)** drops a received notification above 512 bytes and logs "Ignoring value with invalid length" (`gatt.c`).
+- A phone or PC central caps the MTU at about 517 bytes. For those centrals, keep notifications at 512 bytes or less.
+
+For large transfers that stay compliant and work on Zephyr 4.5, phones and PCs, use an **L2CAP connection-oriented channel (CoC)**. Its SDU can be up to 65535 bytes, and it has credit-based flow control.
 
 ## Summary
 
 > **"BLE is limited to 251 bytes."**
 >
-> 251 bytes is the link-layer packet size. My 2000-byte MTU is at the ATT layer, and L2CAP splits it across link-layer packets.
+> 251 bytes is the link-layer packet size. A large MTU is at the ATT layer, and L2CAP splits each ATT packet across link-layer packets.
 
 ## References
 
@@ -107,3 +168,8 @@ Do not hard-code these numbers in an app. Read the negotiated value after the co
 - [Nordic DevZone: iOS MTU 185 bytes](https://devzone.nordicsemi.com/f/nordic-q-a/44825/ios-mtu-size-why-only-185-bytes/176057)
 - [Web Bluetooth discussion: MTU on Windows, macOS, Linux](https://lists.w3.org/Archives/Public/public-web-bluetooth-log/2020Feb/0004.html)
 - [BlueZ att-types.h](https://coral.googlesource.com/bluez-imx/+/refs/tags/5.27/src/shared/att-types.h)
+- [Zephyr l2cap.h: L2CAP header, RX/TX MTU macros](https://github.com/zephyrproject-rtos/zephyr/blob/main/include/zephyr/bluetooth/l2cap.h)
+- [Zephyr att_internal.h: local ATT MTU](https://github.com/zephyrproject-rtos/zephyr/blob/main/subsys/bluetooth/host/att_internal.h)
+- [Zephyr Kconfig.l2cap: TX MTU range](https://github.com/zephyrproject-rtos/zephyr/blob/main/subsys/bluetooth/host/Kconfig.l2cap)
+- [Zephyr controller Kconfig: BT_CTLR_DATA_LENGTH_MAX default](https://github.com/zephyrproject-rtos/zephyr/blob/main/subsys/bluetooth/controller/Kconfig)
+- [Zephyr gatt.c: 512-byte receive check](https://github.com/zephyrproject-rtos/zephyr/blob/main/subsys/bluetooth/host/gatt.c)
