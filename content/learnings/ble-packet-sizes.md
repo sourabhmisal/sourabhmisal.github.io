@@ -11,14 +11,14 @@ BLE has more than one packet size limit. Each limit applies to a different layer
 
 ```mermaid
 flowchart TD
-    A["GATT notification / write<br/>(one attribute value, max 512 B)"] --> B["ATT packet<br/>size limit = negotiated ATT MTU"]
-    B --> C{"ATT packet > 251 bytes?"}
-    C -- No --> D["One link-layer packet"]
-    C -- Yes --> E["L2CAP splits it into fragments"]
-    E --> F["Link-layer packets<br/>27 bytes, or 251 bytes with DLE"]
-    D --> G["Radio: each packet ACKed,<br/>failed packets retransmitted"]
+    A["<b>GATT</b><br/>App sends a notification<br/>Value: max 512 B"] --> B["<b>ATT</b><br/>Adds 3 B header<br/>Packet: max ATT MTU"]
+    B --> E["<b>L2CAP</b><br/>Adds 4 B header"]
+    E --> C{"Packet<br/>above 251 B?"}
+    C -- No --> D["<b>Link layer</b><br/>Sends 1 packet"]
+    C -- Yes --> F["<b>Link layer</b><br/>Sends n fragments<br/>Each: max 251 B"]
+    D --> G["<b>Radio</b><br/>ACK per packet<br/>Resends failed ones"]
     F --> G
-    G --> H["Receiver L2CAP joins fragments<br/>into the full ATT packet"]
+    G --> H["<b>Receiver L2CAP</b><br/>Joins fragments<br/>Gives full packet to ATT"]
 ```
 
 ## The three limits at a glance
