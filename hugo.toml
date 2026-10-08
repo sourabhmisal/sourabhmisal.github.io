@@ -46,6 +46,12 @@ weight = 30
 # weight = 50
 
 [[menu.main]]
+identifier = "learnings"
+name = "Learnings"
+url = "/learnings"
+weight = 50
+
+[[menu.main]]
 identifier = "extra"
 name = "Extra-Curriculars"
 url = "/extra-curriculars"
