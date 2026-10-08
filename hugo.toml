@@ -64,6 +64,7 @@ weight = 60
 # weight = 70
 
 [params]
+defaultTheme = "dark"
 showToc = true
 TocOpen = false
 ShowBreadCrumbs = true
