@@ -11,7 +11,7 @@ BLE has more than one packet size limit. Each limit applies to a different layer
 
 ```mermaid
 flowchart TD
-    A["<b>GATT</b><br/>App sends a notification<br/>Value: max 512 B"] --> B["<b>ATT</b><br/>Adds 3 B header<br/>Packet: max ATT MTU"]
+    A["<b>GATT</b><br/>App sends a notification<br/>Value: max 512 B by spec<br/>Zephyr ≤ 4.4: up to ATT MTU − 3"] --> B["<b>ATT</b><br/>Adds 3 B header<br/>Packet: max ATT MTU"]
     B --> E["<b>L2CAP</b><br/>Adds 4 B header"]
     E --> C{"Packet<br/>above 251 B?"}
     C -- No --> D["<b>Link layer</b><br/>Sends 1 packet"]
