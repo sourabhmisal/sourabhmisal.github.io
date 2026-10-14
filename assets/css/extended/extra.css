@@ -3,9 +3,17 @@
   height: auto !important;
 }
 .post-content pre.mermaid {
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
   background: none;
   border: none;
   padding: 0;
+  margin: 24px 0;
+}
+
+.post-content pre.mermaid svg {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
