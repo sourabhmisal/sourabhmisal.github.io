@@ -17,3 +17,8 @@
   max-width: 100%;
   height: auto;
 }
+
+.post-content,
+.toc {
+  font-size: 16px;
+}
