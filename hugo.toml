@@ -63,6 +63,11 @@ weight = 60
 # url = "/search"
 # weight = 70
 
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
 [params]
 defaultTheme = "dark"
 showToc = true

@@ -22,3 +22,31 @@
 .toc {
   font-size: 16px;
 }
+
+/* Series navigation box on learning notes */
+.series-box {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--entry);
+  padding: 14px 18px;
+  margin: 0 0 24px;
+  font-size: 15px;
+}
+.series-box .series-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.series-box ol {
+  margin: 0 0 8px 20px;
+  padding: 0;
+}
+.series-box li {
+  margin: 2px 0;
+}
+.series-box a {
+  box-shadow: 0 1px 0 var(--primary);
+}
+.series-box .series-pn {
+  display: flex;
+  justify-content: space-between;
+}
